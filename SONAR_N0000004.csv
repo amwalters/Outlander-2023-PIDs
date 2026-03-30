@@ -1,0 +1,62 @@
+function,group,item,no,no_nas,qual_id,su_qual_id,visible,skey_sid_hex,qual_sid_hex,qual_lid_hex,param_unit,param_data_type,param_byte_pos,param_byte_len,param_byte_ord,param_bit_pos,param_bit_len,param_bit_mask,scale_no,scale_up_bound,scale_low_bound,scale_range_id,scale_range_label,scale_factor,scale_offset,scale_format,scale_labels
+Data List,All data,VEHICLE SPEED,1,44,2,56,1,0x3D3011,0x22,0x2030,km/h,0,3,2,2,-1,-1,-1,1,0,0,0,,0.01,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,SONAR C/U POWER SUPPLY,2,42,3,57,1,0x3D3011,0x22,0x2031,V,0,3,1,2,-1,-1,-1,1,0,0,0,,0.1,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,DETECTION MODE,3,22,4,58,1,0x3D3011,0x22,0x2033,,0,3,1,2,-1,-1,-1,1,0,0,8002016,Maneuver,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8002016, 'range_label': 'Maneuver'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8002017, 'range_label': 'Normal'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 8002018, 'range_label': 'Standby'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8002019, 'range_label': 'Error'}]"
+Data List,All data,SHRT DST FRM RR SENS,4,41,5,59,1,0x3D3011,0x22,0x2035,cm,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,SHRT DST FRM FR SENS,5,40,6,60,1,0x3D3011,0x22,0x2036,cm,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,RSL,6,36,7,61,1,0x3D3011,0x22,0x2037,cm,0,3,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,RSL_ROL,7,37,8,61,1,0x3D3011,0x22,0x2037,cm,0,4,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,ROL_RSL,8,34,9,61,1,0x3D3011,0x22,0x2037,cm,0,5,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,COR[RL],9,18,10,61,1,0x3D3011,0x22,0x2037,cm,0,6,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,COR[RL]->CEN[RL]/CEN[R],10,19,11,61,1,0x3D3011,0x22,0x2037,cm,0,7,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[RL]/CEN[R]->COR[RL],11,8,12,61,1,0x3D3011,0x22,0x2037,cm,0,8,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[RL]/CEN[R],12,7,13,61,1,0x3D3011,0x22,0x2037,cm,0,9,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[RL]->CEN[RR],13,9,14,61,1,0x3D3011,0x22,0x2037,cm,0,10,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[RR]->CEN[RL],14,12,15,61,1,0x3D3011,0x22,0x2037,cm,0,11,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[RR],15,10,16,61,1,0x3D3011,0x22,0x2037,cm,0,12,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[RR]/CEN[R]->COR[RR],16,11,17,61,1,0x3D3011,0x22,0x2037,cm,0,18,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,COR[RR]->CEN[RR]/CEN[R],17,21,18,61,1,0x3D3011,0x22,0x2037,cm,0,13,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,COR[RR],18,20,19,61,1,0x3D3011,0x22,0x2037,cm,0,14,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,ROR_RSR,19,35,20,61,1,0x3D3011,0x22,0x2037,cm,0,15,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,RSR_ROR,20,39,21,61,1,0x3D3011,0x22,0x2037,cm,0,16,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,RSR,21,38,22,61,1,0x3D3011,0x22,0x2037,cm,0,17,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,FSL,22,29,23,62,1,0x3D3011,0x22,0x2038,cm,0,3,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,FSL_FOL,23,30,24,62,1,0x3D3011,0x22,0x2038,cm,0,4,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,FOL_FSL,24,27,25,62,1,0x3D3011,0x22,0x2038,cm,0,5,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,COR[FL],25,14,26,62,1,0x3D3011,0x22,0x2038,cm,0,6,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,COR[FL]->CEN[FL]/CEN[F],26,15,27,62,1,0x3D3011,0x22,0x2038,cm,0,7,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[FL]/CEN[F]->COR[FL],27,2,28,62,1,0x3D3011,0x22,0x2038,cm,0,8,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[FL]/CEN[F],28,1,29,62,1,0x3D3011,0x22,0x2038,cm,0,9,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[FL]->CEN[FR],29,3,30,62,1,0x3D3011,0x22,0x2038,cm,0,10,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[FR]->CEN[FL],30,6,31,62,1,0x3D3011,0x22,0x2038,cm,0,11,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[FR],31,4,32,62,1,0x3D3011,0x22,0x2038,cm,0,12,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,CEN[FR]/CEN[F]->COR[FR],32,5,33,62,1,0x3D3011,0x22,0x2038,cm,0,13,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,COR[FR]->CEN[FR]/CEN[F],33,17,34,62,1,0x3D3011,0x22,0x2038,cm,0,14,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,COR[FR],34,16,35,62,1,0x3D3011,0x22,0x2038,cm,0,15,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,FOR_FSR,35,28,36,62,1,0x3D3011,0x22,0x2038,cm,0,16,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,FSR_FOR,36,32,37,62,1,0x3D3011,0x22,0x2038,cm,0,17,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,FSR,37,31,38,62,1,0x3D3011,0x22,0x2038,cm,0,18,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Limit angle,38,33,49,66,1,0x3D3011,0x22,0x2049,deg,1,3,1,2,0,6,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Driving corridor high angle,39,25,50,66,1,0x3D3011,0x22,0x2049,cm,1,5,1,2,0,6,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Driving corridor low angle,40,26,51,66,1,0x3D3011,0x22,0x2049,cm,1,6,1,2,0,6,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Continuous tone area,41,13,52,67,1,0x3D3011,0x22,0x2101,cm,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Discontinuous tone area (far),42,23,53,67,1,0x3D3011,0x22,0x2101,cm,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Discontinuous tone area (near),43,24,54,67,1,0x3D3011,0x22,0x2101,cm,0,5,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Timeout for scan zones,44,43,55,68,1,0x3D3011,0x22,0x2102,second,1,3,1,2,0,4,-1,1,0,0,0,,30,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data gathering,,Data(DA00),1,1,141,0,1,0x3D3011,0x22,0xDA00,,0,0,318,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA10),2,2,142,0,1,0x3D3011,0x22,0xDA10,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA11),3,3,143,0,1,0x3D3011,0x22,0xDA11,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA12),4,4,144,0,1,0x3D3011,0x22,0xDA12,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA13),5,5,145,0,1,0x3D3011,0x22,0xDA13,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA14),6,6,146,0,1,0x3D3011,0x22,0xDA14,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Freeze Frame Data,Fuel control,ODO/TRIP METER,10,30,71,0,1,0x3D3011,0xF0,0xD0,km,0,2,3,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,DTC count,20,20,72,0,1,0x3D3011,0xF0,0xD1,count,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,VEHICLE SPEED,30,50,73,0,1,0x3D3011,0x20,0x30,km/h,0,2,2,2,-1,-1,-1,1,0,0,0,,0.01,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,SONAR C/U POWER SUPPLY,40,40,74,0,1,0x3D3011,0x20,0x31,V,0,2,1,2,-1,-1,-1,1,0,0,0,,0.1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,DETECTION MODE,50,10,75,0,1,0x3D3011,0x20,0x33,,0,2,1,2,-1,-1,-1,1,0,0,8002016,Maneuver,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8002016, 'range_label': 'Maneuver'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8002017, 'range_label': 'Normal'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 8002018, 'range_label': 'Standby'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8002019, 'range_label': 'Error'}]"
+ECU Information,Indicator,ECU PART NUMBER,1,1,105,0,1,0x3D3011,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Software part number,1,1,117081,0,1,0x3D3011,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Hardware part number,2,2,117082,0,1,0x3D3011,0x22,0xF1A1,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),ECU serial number,3,3,117083,0,1,0x3D3011,0x22,0xF18C,,0,3,-1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,1,VOLUME SETTING,1,1,100,101,1,0x3D3011,0x2E,0x2008,,0,3,1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,1,VOLUME SETTING,1,1,102,103,1,0x3D3011,0x22,0x2008,,0,3,1,2,-1,-1,-1,1,1,1,57000035,Vol.1,0,0,0,"[{'no': 1, 'up_bound': 1, 'low_bound': 1, 'range_id': 57000035, 'range_label': 'Vol.1'}, {'no': 2, 'up_bound': 2, 'low_bound': 2, 'range_id': 8001726, 'range_label': 'Vol.2'}, {'no': 3, 'up_bound': 3, 'low_bound': 3, 'range_id': 57000036, 'range_label': 'Vol.3'}, {'no': 4, 'up_bound': 4, 'low_bound': 4, 'range_id': 8001727, 'range_label': 'Vol.4'}, {'no': 5, 'up_bound': 5, 'low_bound': 5, 'range_id': 57000037, 'range_label': 'Vol.5'}, {'no': 6, 'up_bound': 6, 'low_bound': 6, 'range_id': 8001728, 'range_label': 'Vol.6'}, {'no': 7, 'up_bound': 7, 'low_bound': 7, 'range_id': 61000001, 'range_label': 'OFF'}]"

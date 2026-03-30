@@ -1,0 +1,229 @@
+function,group,item,no,no_nas,qual_id,su_qual_id,visible,skey_sid_hex,qual_sid_hex,qual_lid_hex,param_unit,param_data_type,param_byte_pos,param_byte_len,param_byte_ord,param_bit_pos,param_bit_len,param_bit_mask,scale_no,scale_up_bound,scale_low_bound,scale_range_id,scale_range_label,scale_factor,scale_offset,scale_format,scale_labels
+Data List,All data,REVERSE SIGNAL,1,20,2,41,1,0x67B6D73D,0x22,0x500,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,CAMERA SWITCH SIGNAL,2,2,3,42,1,0x67B6D73D,0x22,0x501,,1,3,1,2,0,1,-1,1,0,0,8001027,OFF (Released),0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8001027, 'range_label': 'OFF (Released)'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8001028, 'range_label': 'ON (Pushed)'}]"
+Data List,All data,CAMERA OFF SIGNAL,3,1,4,43,1,0x67B6D73D,0x22,0x502,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,REAR CAMERA IMAGE SIGNAL,4,19,5,44,1,0x67B6D73D,0x22,0x505,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,R-CAMERA COMM STATUS,5,18,6,45,1,0x67B6D73D,0x22,0x506,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,R-CAMERA COMM LINE,6,17,7,46,1,0x67B6D73D,0x22,0x507,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,F-CAMERA IMAGE SIGNAL,7,6,8,47,1,0x67B6D73D,0x22,0x508,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,F-CAMERA COMM STATUS,8,5,9,48,1,0x67B6D73D,0x22,0x509,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,F-CAMERA COMM LINE,9,4,10,49,1,0x67B6D73D,0x22,0x50A,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,Left Camera Image Output signal,10,12,11,50,1,0x67B6D73D,0x22,0x50B,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,Left Camera COMM Status,11,11,12,51,1,0x67B6D73D,0x22,0x50C,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,Left Camera COMM Line,12,10,13,52,1,0x67B6D73D,0x22,0x50D,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,Right Camera Image Output signal,13,23,14,53,1,0x67B6D73D,0x22,0x50E,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,Right Camera COMM Status,14,22,15,54,1,0x67B6D73D,0x22,0x50F,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,Right Camera COMM Line,15,21,16,55,1,0x67B6D73D,0x22,0x510,,1,3,1,2,0,1,-1,1,0,0,22900839,NG,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900839, 'range_label': 'NG'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1100004, 'range_label': 'OK'}]"
+Data List,All data,FOLDING MOTOR VOLT 1,16,7,17,56,1,0x67B6D73D,0x22,0x512,,1,3,1,2,0,2,-1,1,0,0,8001029,Low(MirrorClose),0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8001029, 'range_label': 'Low(MirrorClose)'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000570, 'range_label': 'N'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 8001030, 'range_label': 'High(MirrorOpen)'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8001544, 'range_label': 'Reserve'}]"
+Data List,All data,FOLDING MOTOR VOLT 2,17,8,18,57,1,0x67B6D73D,0x22,0x513,,1,3,1,2,0,2,-1,1,0,0,8001576,Low(MirrorOpen),0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8001576, 'range_label': 'Low(MirrorOpen)'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000570, 'range_label': 'N'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 8001577, 'range_label': 'High(MirrorClose)'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8001544, 'range_label': 'Reserve'}]"
+Data List,All data,Park SW1,18,14,19,58,1,0x67B6D73D,0x22,0x517,,1,3,1,2,0,1,-1,1,0,0,8001035,GND (Released),0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8001035, 'range_label': 'GND (Released)'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8001036, 'range_label': 'Open (Pushed)'}]"
+Data List,All data,Park SW2,19,15,20,59,1,0x67B6D73D,0x22,0x518,,1,3,1,2,0,1,-1,1,0,0,8001037,GND (Pushed),0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8001037, 'range_label': 'GND (Pushed)'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8001038, 'range_label': 'Open (Released)'}]"
+Data List,All data,Video image output Status,20,27,21,60,1,0x67B6D73D,0x22,0x51B,,1,3,1,2,0,1,-1,1,0,0,8001039,No Image,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8001039, 'range_label': 'No Image'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8001040, 'range_label': 'Output Image'}]"
+Data List,All data,SyncSignal output Status,21,24,22,61,1,0x67B6D73D,0x22,0x51C,,1,3,1,2,0,1,-1,1,0,0,8001041,No Sync,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8001041, 'range_label': 'No Sync'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8001042, 'range_label': 'Output Sync'}]"
+Data List,All data,VehicleState,22,26,23,62,1,0x67B6D73D,0x22,0x51D,,0,3,1,2,-1,-1,-1,1,0,0,7000876,Sleeping,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 7000876, 'range_label': 'Sleeping'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 9100218, 'range_label': 'Not used'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 7000429, 'range_label': 'CutoffPending'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 7000406, 'range_label': 'AutoACC - BatTempoLevel'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 9100218, 'range_label': 'Not used'}, {'no': 6, 'up_bound': 5, 'low_bound': 5, 'range_id': 7000462, 'range_label': 'IgnitionLevel'}, {'no': 7, 'up_bound': 6, 'low_bound': 6, 'range_id': 7000550, 'range_label': 'StartingInProgress'}, {'no': 8, 'up_bound': 7, 'low_bound': 7, 'range_id': 7000524, 'range_label': 'PowertrainRunning'}, {'no': 9, 'up_bound': 8, 'low_bound': 8, 'range_id': 7000408, 'range_label': 'AutoStart'}, {'no': 10, 'up_bound': 9, 'low_bound': 9, 'range_id': 7000447, 'range_label': 'EngineSystemStop'}, {'no': 11, 'up_bound': 14, 'low_bound': 10, 'range_id': 9100218, 'range_label': 'Not used'}, {'no': 12, 'up_bound': 15, 'low_bound': 15, 'range_id': 37000045, 'range_label': 'Unavailable'}]"
+Data List,All data,VehicleSpeed,23,25,24,63,1,0x67B6D73D,0x22,0x51E,km/h,0,3,2,2,-1,-1,-1,1,0,0,0,,0.01,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Park SW2(PushGND),24,16,380,382,1,0x67B6D73D,0x22,0x531,,0,3,1,2,-1,-1,-1,1,0,0,8001037,GND (Pushed),0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8001037, 'range_label': 'GND (Pushed)'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8001038, 'range_label': 'Open (Released)'}]"
+Data List,All data,Number of APA Activation,25,13,381,383,1,0x67B6D73D,0x22,0x532,times,0,3,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Electrical folding mirror,26,3,482,484,1,0x67B6D73D,0x22,0x101,,0,3,1,2,-1,-1,-1,1,0,0,8002533,No settings,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8002533, 'range_label': 'No settings'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8002534, 'range_label': 'Settings'}]"
+Data List,All data,Handle side,27,9,483,485,1,0x67B6D73D,0x22,0x102,,0,3,1,2,-1,-1,-1,1,0,0,22900841,LHD,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 22900841, 'range_label': 'LHD'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 22900840, 'range_label': 'RHD'}]"
+Data gathering,,Data(DA00),1,1,401,0,1,0x67B6D73D,0x22,0xDA00,,0,0,318,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA10),2,2,402,0,1,0x67B6D73D,0x22,0xDA10,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA11),3,3,403,0,1,0x67B6D73D,0x22,0xDA11,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA12),4,4,404,0,1,0x67B6D73D,0x22,0xDA12,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA13),5,5,405,0,1,0x67B6D73D,0x22,0xDA13,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA14),6,6,406,0,1,0x67B6D73D,0x22,0xDA14,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA30),7,7,407,0,1,0x67B6D73D,0x22,0xDA30,,0,0,22,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA31),8,8,408,0,1,0x67B6D73D,0x22,0xDA31,,0,0,22,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA32),9,9,409,0,1,0x67B6D73D,0x22,0xDA32,,0,0,22,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA33),10,10,410,0,1,0x67B6D73D,0x22,0xDA33,,0,0,22,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA34),11,11,411,0,1,0x67B6D73D,0x22,0xDA34,,0,0,22,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA35),12,12,412,0,1,0x67B6D73D,0x22,0xDA35,,0,0,22,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA36),13,13,413,0,1,0x67B6D73D,0x22,0xDA36,,0,0,22,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA37),14,14,414,0,1,0x67B6D73D,0x22,0xDA37,,0,0,22,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA50),15,15,415,0,1,0x67B6D73D,0x22,0xDA50,,0,0,407,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA51),16,16,416,0,1,0x67B6D73D,0x22,0xDA51,,0,0,407,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA52),17,17,417,0,1,0x67B6D73D,0x22,0xDA52,,0,0,407,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA53),18,18,418,0,1,0x67B6D73D,0x22,0xDA53,,0,0,407,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA54),19,19,419,0,1,0x67B6D73D,0x22,0xDA54,,0,0,407,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA55),20,20,420,0,1,0x67B6D73D,0x22,0xDA55,,0,0,407,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA56),21,21,421,0,1,0x67B6D73D,0x22,0xDA56,,0,0,407,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA57),22,22,422,0,1,0x67B6D73D,0x22,0xDA57,,0,0,407,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA30),23,23,430,0,1,0x67B6D73D,0x22,0xDA30,,0,0,136,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA31),24,24,431,0,1,0x67B6D73D,0x22,0xDA31,,0,0,136,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA32),25,25,432,0,1,0x67B6D73D,0x22,0xDA32,,0,0,136,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA33),26,26,433,0,1,0x67B6D73D,0x22,0xDA33,,0,0,136,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA34),27,27,434,0,1,0x67B6D73D,0x22,0xDA34,,0,0,136,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA35),28,28,435,0,1,0x67B6D73D,0x22,0xDA35,,0,0,136,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA36),29,29,436,0,1,0x67B6D73D,0x22,0xDA36,,0,0,136,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA37),30,30,437,0,1,0x67B6D73D,0x22,0xDA37,,0,0,136,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA38),31,31,438,0,1,0x67B6D73D,0x22,0xDA38,,0,0,136,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA39),32,32,439,0,1,0x67B6D73D,0x22,0xDA39,,0,0,136,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA3A),33,33,440,0,1,0x67B6D73D,0x22,0xDA3A,,0,0,340,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA3B),34,34,441,0,1,0x67B6D73D,0x22,0xDA3B,,0,0,340,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA3C),35,35,442,0,1,0x67B6D73D,0x22,0xDA3C,,0,0,340,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA3D),36,36,443,0,1,0x67B6D73D,0x22,0xDA3D,,0,0,340,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA3E),37,37,444,0,1,0x67B6D73D,0x22,0xDA3E,,0,0,340,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA3F),38,38,445,0,1,0x67B6D73D,0x22,0xDA3F,,0,0,340,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA40),39,39,446,0,1,0x67B6D73D,0x22,0xDA40,,0,0,340,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA41),40,40,447,0,1,0x67B6D73D,0x22,0xDA41,,0,0,340,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA42),41,41,448,0,1,0x67B6D73D,0x22,0xDA42,,0,0,340,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA43),42,42,449,0,1,0x67B6D73D,0x22,0xDA43,,0,0,340,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA44),43,43,450,0,1,0x67B6D73D,0x22,0xDA44,,0,0,300,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA45),44,44,451,0,1,0x67B6D73D,0x22,0xDA45,,0,0,300,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA46),45,45,452,0,1,0x67B6D73D,0x22,0xDA46,,0,0,300,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA47),46,46,453,0,1,0x67B6D73D,0x22,0xDA47,,0,0,300,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA48),47,47,454,0,1,0x67B6D73D,0x22,0xDA48,,0,0,300,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA49),48,48,455,0,1,0x67B6D73D,0x22,0xDA49,,0,0,300,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA4A),49,49,456,0,1,0x67B6D73D,0x22,0xDA4A,,0,0,300,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA4B),50,50,457,0,1,0x67B6D73D,0x22,0xDA4B,,0,0,300,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA4C),51,51,458,0,1,0x67B6D73D,0x22,0xDA4C,,0,0,300,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA4D),52,52,459,0,1,0x67B6D73D,0x22,0xDA4D,,0,0,300,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA50),53,53,460,0,1,0x67B6D73D,0x22,0xDA50,,0,0,155,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA51),54,54,461,0,1,0x67B6D73D,0x22,0xDA51,,0,0,155,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA52),55,55,462,0,1,0x67B6D73D,0x22,0xDA52,,0,0,155,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA53),56,56,463,0,1,0x67B6D73D,0x22,0xDA53,,0,0,155,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA54),57,57,464,0,1,0x67B6D73D,0x22,0xDA54,,0,0,155,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA55),58,58,465,0,1,0x67B6D73D,0x22,0xDA55,,0,0,155,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA56),59,59,466,0,1,0x67B6D73D,0x22,0xDA56,,0,0,155,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA57),60,60,467,0,1,0x67B6D73D,0x22,0xDA57,,0,0,155,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA58),61,61,468,0,1,0x67B6D73D,0x22,0xDA58,,0,0,155,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA59),62,62,469,0,1,0x67B6D73D,0x22,0xDA59,,0,0,155,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA70),63,63,470,0,1,0x67B6D73D,0x22,0xDA70,,0,0,504,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA71),64,64,471,0,1,0x67B6D73D,0x22,0xDA71,,0,0,504,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA72),65,65,472,0,1,0x67B6D73D,0x22,0xDA72,,0,0,504,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA73),66,66,473,0,1,0x67B6D73D,0x22,0xDA73,,0,0,482,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA74),67,67,474,0,1,0x67B6D73D,0x22,0xDA74,,0,0,482,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA75),68,68,475,0,1,0x67B6D73D,0x22,0xDA75,,0,0,482,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA76),69,69,476,0,1,0x67B6D73D,0x22,0xDA76,,0,0,127,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA77),70,70,477,0,1,0x67B6D73D,0x22,0xDA77,,0,0,127,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA78),71,71,478,0,1,0x67B6D73D,0x22,0xDA78,,0,0,127,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA90),72,72,479,0,1,0x67B6D73D,0x22,0xDA90,,0,0,441,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA91),73,73,480,0,1,0x67B6D73D,0x22,0xDA91,,0,0,441,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA92),74,74,481,0,1,0x67B6D73D,0x22,0xDA92,,0,0,441,2,-1,-1,-1,,,,,,,,,[]
+Freeze Frame Data,Fuel control,ODO/TRIP METER,10,40,81,0,1,0x67B6D73D,0xF0,0xD0,km,0,2,3,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,DTC count,20,10,82,0,1,0x67B6D73D,0xF0,0xD1,count,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,VehicleSpeed,30,50,83,0,1,0x67B6D73D,0x5,0x1E,km/h,0,2,2,2,-1,-1,-1,1,0,0,0,,0.01,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,VehicleState,40,60,84,0,1,0x67B6D73D,0x5,0x1D,,0,2,1,2,-1,-1,-1,1,0,0,7000876,Sleeping,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 7000876, 'range_label': 'Sleeping'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 9100218, 'range_label': 'Not used'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 7000429, 'range_label': 'CutoffPending'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8002217, 'range_label': 'AutoACC'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 9100218, 'range_label': 'Not used'}, {'no': 6, 'up_bound': 5, 'low_bound': 5, 'range_id': 7000462, 'range_label': 'IgnitionLevel'}, {'no': 7, 'up_bound': 6, 'low_bound': 6, 'range_id': 7000550, 'range_label': 'StartingInProgress'}, {'no': 8, 'up_bound': 7, 'low_bound': 7, 'range_id': 7000524, 'range_label': 'PowertrainRunning'}, {'no': 9, 'up_bound': 8, 'low_bound': 8, 'range_id': 7000408, 'range_label': 'AutoStart'}, {'no': 10, 'up_bound': 9, 'low_bound': 9, 'range_id': 7000447, 'range_label': 'EngineSystemStop'}, {'no': 11, 'up_bound': 14, 'low_bound': 10, 'range_id': 9100218, 'range_label': 'Not used'}, {'no': 12, 'up_bound': 15, 'low_bound': 15, 'range_id': 37000045, 'range_label': 'Unavailable'}]"
+Freeze Frame Data,Fuel control,GADE,50,20,85,0,1,0x67B6D73D,0x5,0x1F,,0,2,1,2,-1,-1,-1,1,0,0,7000543,Sleep or Crank fault,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 7000543, 'range_label': 'Sleep or Crank fault'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000407, 'range_label': 'AutoACC fault'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 8001537, 'range_label': 'ALL fault'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8002218, 'range_label': 'ALL fault2'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 8001515, 'range_label': 'FOTA switch fault'}, {'no': 6, 'up_bound': 6, 'low_bound': 5, 'range_id': 9100218, 'range_label': 'Not used'}, {'no': 7, 'up_bound': 7, 'low_bound': 7, 'range_id': 37000045, 'range_label': 'Unavailable'}]"
+Freeze Frame Data,Fuel control,Multi Around Monitor Gear Engaged,60,30,86,0,1,0x67B6D73D,0x5,0x2D,,0,2,1,2,-1,-1,-1,1,0,0,4000010,Neutral,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 4000010, 'range_label': 'Neutral'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000764, 'range_label': 'Rear'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 7001060, 'range_label': 'Drive'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 37000045, 'range_label': 'Unavailable'}]"
+CALIBRATION,Input output data,-1,6,6,133,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Input output data,-1,7,7,134,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Input output data,-1,8,8,135,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Input output data,-1,9,9,136,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Input output data,CALIBRATING CAMERA IMAGE (FRONT CAMERA),14,14,137,0,1,0x67B6D73D,0x2E,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Input output data,-1,16,16,139,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Input output data,-1,17,17,140,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Input output data,-1,19,19,142,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Input output data,-1,21,21,143,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Battery voltage data,-1,6,6,144,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Battery voltage data,-1,7,7,145,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Battery voltage data,-1,8,8,146,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Battery voltage data,-1,9,9,147,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Battery voltage data,CALIBRATING CAMERA IMAGE (RIGHT CAMERA),14,14,148,0,1,0x67B6D73D,0x2E,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Battery voltage data,-1,16,16,150,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Battery voltage data,-1,17,17,151,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Battery voltage data,-1,19,19,153,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Battery voltage data,-1,21,21,154,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Battery temperature data,-1,6,6,155,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Battery temperature data,-1,7,7,156,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Battery temperature data,-1,8,8,157,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Battery temperature data,-1,9,9,158,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Battery temperature data,CALIBRATING CAMERA IMAGE (LEFT CAMERA),14,14,159,0,1,0x67B6D73D,0x2E,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Battery temperature data,-1,16,16,161,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Battery temperature data,-1,17,17,162,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Battery temperature data,-1,19,19,164,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Battery temperature data,-1,21,21,165,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Balancer drive data,-1,6,6,166,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Balancer drive data,-1,7,7,167,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Balancer drive data,-1,8,8,168,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Balancer drive data,-1,9,9,169,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Balancer drive data,CALIBRATING CAMERA IMAGE (REAR CAMERA),14,14,170,0,1,0x67B6D73D,0x2E,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Balancer drive data,-1,16,16,172,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Balancer drive data,-1,17,17,173,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Balancer drive data,-1,19,19,175,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+CALIBRATION,Balancer drive data,-1,21,21,176,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Control data,-1,1,1,195,0,1,0x67B6D73D,0x22,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Control data,-1,2,2,196,0,1,0x67B6D73D,0x22,0x6,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Control data,-1,3,3,197,0,1,0x67B6D73D,0x22,0x6,,0,5,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Control data,-1,4,4,198,0,1,0x67B6D73D,0x22,0x6,,0,6,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Registered data,-1,1,1,199,0,1,0x67B6D73D,0x22,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Registered data,-1,2,2,200,0,1,0x67B6D73D,0x22,0x6,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Registered data,-1,3,3,201,0,1,0x67B6D73D,0x22,0x6,,0,5,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Registered data,-1,4,4,202,0,1,0x67B6D73D,0x22,0x6,,0,6,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Update history,-1,1,1,203,0,1,0x67B6D73D,0x22,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Update history,-1,2,2,204,0,1,0x67B6D73D,0x22,0x6,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Update history,-1,3,3,205,0,1,0x67B6D73D,0x22,0x6,,0,5,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,Update history,-1,4,4,206,0,1,0x67B6D73D,0x22,0x6,,0,6,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,AS&G Control,-1,1,1,207,0,1,0x67B6D73D,0x22,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,AS&G Control,-1,2,2,208,0,1,0x67B6D73D,0x22,0x6,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,AS&G Control,-1,3,3,209,0,1,0x67B6D73D,0x22,0x6,,0,5,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+CALIBRATION,AS&G Control,-1,4,4,210,0,1,0x67B6D73D,0x22,0x6,,0,6,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,4,4,216,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,5,5,217,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,Front camera,10,10,218,0,1,0x67B6D73D,0x2E,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,12,12,220,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,14,14,221,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,15,15,222,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,17,17,224,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,18,18,225,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,19,19,226,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,20,20,423,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,21,21,424,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,Right camera,10,10,227,0,1,0x67B6D73D,0x2E,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,12,12,229,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,14,14,230,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,15,15,231,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,17,17,233,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,18,18,234,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,19,19,235,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,Rear camera,10,10,236,0,1,0x67B6D73D,0x2E,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,12,12,238,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,14,14,239,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,15,15,240,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,17,17,242,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,18,18,243,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,19,19,244,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,Left camera,10,10,245,0,1,0x67B6D73D,0x2E,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,12,12,247,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,14,14,248,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,15,15,249,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,17,17,251,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,18,18,252,0,1,0x67B6D73D,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,19,19,253,0,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+FINE TUNING OF BIRDS-EYE VIEW,,-1,1,1,255,0,1,0x67B6D73D,0x22,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,2,2,256,0,1,0x67B6D73D,0x22,0x6,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,3,3,257,0,1,0x67B6D73D,0x22,0x6,,0,5,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,4,4,258,0,1,0x67B6D73D,0x22,0x6,,0,6,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,1,1,259,0,1,0x67B6D73D,0x22,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,2,2,260,0,1,0x67B6D73D,0x22,0x6,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,3,3,261,0,1,0x67B6D73D,0x22,0x6,,0,5,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,4,4,262,0,1,0x67B6D73D,0x22,0x6,,0,6,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,1,1,263,0,1,0x67B6D73D,0x22,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,2,2,264,0,1,0x67B6D73D,0x22,0x6,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,3,3,265,0,1,0x67B6D73D,0x22,0x6,,0,5,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,4,4,266,0,1,0x67B6D73D,0x22,0x6,,0,6,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,1,1,267,0,1,0x67B6D73D,0x22,0x6,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,2,2,268,0,1,0x67B6D73D,0x22,0x6,,0,4,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,3,3,269,0,1,0x67B6D73D,0x22,0x6,,0,5,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+FINE TUNING OF BIRDS-EYE VIEW,,-1,4,4,270,0,1,0x67B6D73D,0x22,0x6,,0,6,1,2,-1,-1,-1,1,0,0,0,,1,-128,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+ECU Information,Idle control,ECU PART NUMBER,1,1,88,0,1,0x67B6D73D,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Software part number,1,1,117081,0,1,0x67B6D73D,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Hardware part number,2,2,117082,0,1,0x67B6D73D,0x22,0xF1A1,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),ECU serial number,3,3,117083,0,1,0x67B6D73D,0x22,0xF18C,,0,3,-1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,1,Configurated Buzzer,1,1,90,103,1,0x67B6D73D,0x2F,0x900,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,1,-1,2,2,91,0,1,0x67B6D73D,0x2F,0x900,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,,,,,,,0x67B6D73D,,,,,,,,,,,,,,,,,,,[]
+Adjustment,4,Radius vehicle adjust,1,1,96,106,1,0x67B6D73D,0x2E,0x301,,1,3,1,2,0,6,-1,,,,,,,,,[]
+Adjustment,5,Radius tyre adjust,1,1,97,107,1,0x67B6D73D,0x2E,0x302,cm,0,3,1,2,-1,-1,-1,1,0,0,0,,100,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Adjustment,4,Radius vehicle adjust,1,1,117,126,1,0x67B6D73D,0x22,0x301,,1,3,1,2,0,6,-1,1,0,0,8001590,0.00 cm,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8001590, 'range_label': '0.00 cm'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8001591, 'range_label': '0.01 cm'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 8001592, 'range_label': '0.02 cm'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8001593, 'range_label': '0.03 cm'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 8001594, 'range_label': '0.04 cm'}, {'no': 6, 'up_bound': 5, 'low_bound': 5, 'range_id': 8001595, 'range_label': '0.05 cm'}, {'no': 7, 'up_bound': 6, 'low_bound': 6, 'range_id': 8001596, 'range_label': '0.06 cm'}, {'no': 8, 'up_bound': 7, 'low_bound': 7, 'range_id': 8001597, 'range_label': '0.07 cm'}, {'no': 9, 'up_bound': 8, 'low_bound': 8, 'range_id': 8001598, 'range_label': '0.08 cm'}, {'no': 10, 'up_bound': 9, 'low_bound': 9, 'range_id': 8001599, 'range_label': '0.09 cm'}, {'no': 11, 'up_bound': 10, 'low_bound': 10, 'range_id': 8001600, 'range_label': '0.10 cm'}, {'no': 12, 'up_bound': 11, 'low_bound': 11, 'range_id': 8001601, 'range_label': '0.11 cm'}, {'no': 13, 'up_bound': 12, 'low_bound': 12, 'range_id': 8001602, 'range_label': '0.12 cm'}, {'no': 14, 'up_bound': 13, 'low_bound': 13, 'range_id': 8001603, 'range_label': '0.13 cm'}, {'no': 15, 'up_bound': 14, 'low_bound': 14, 'range_id': 8001604, 'range_label': '0.14 cm'}, {'no': 16, 'up_bound': 15, 'low_bound': 15, 'range_id': 8001605, 'range_label': '0.15 cm'}, {'no': 17, 'up_bound': 16, 'low_bound': 16, 'range_id': 8001606, 'range_label': '0.16 cm'}, {'no': 18, 'up_bound': 17, 'low_bound': 17, 'range_id': 8001607, 'range_label': '0.17 cm'}, {'no': 19, 'up_bound': 18, 'low_bound': 18, 'range_id': 8001608, 'range_label': '0.18 cm'}, {'no': 20, 'up_bound': 19, 'low_bound': 19, 'range_id': 8001609, 'range_label': '0.19 cm'}, {'no': 21, 'up_bound': 20, 'low_bound': 20, 'range_id': 8001610, 'range_label': '0.20 cm'}, {'no': 22, 'up_bound': 44, 'low_bound': 44, 'range_id': 8001611, 'range_label': '-0.20 cm'}, {'no': 23, 'up_bound': 45, 'low_bound': 45, 'range_id': 8001612, 'range_label': '-0.19 cm'}, {'no': 24, 'up_bound': 46, 'low_bound': 46, 'range_id': 8001613, 'range_label': '-0.18 cm'}, {'no': 25, 'up_bound': 47, 'low_bound': 47, 'range_id': 8001614, 'range_label': '-0.17 cm'}, {'no': 26, 'up_bound': 48, 'low_bound': 48, 'range_id': 8001615, 'range_label': '-0.16 cm'}, {'no': 27, 'up_bound': 49, 'low_bound': 49, 'range_id': 8001616, 'range_label': '-0.15 cm'}, {'no': 28, 'up_bound': 50, 'low_bound': 50, 'range_id': 8001617, 'range_label': '-0.14 cm'}, {'no': 29, 'up_bound': 51, 'low_bound': 51, 'range_id': 8001618, 'range_label': '-0.13 cm'}, {'no': 30, 'up_bound': 52, 'low_bound': 52, 'range_id': 8001619, 'range_label': '-0.12 cm'}, {'no': 31, 'up_bound': 53, 'low_bound': 53, 'range_id': 8001620, 'range_label': '-0.11 cm'}, {'no': 32, 'up_bound': 54, 'low_bound': 54, 'range_id': 8001621, 'range_label': '-0.10 cm'}, {'no': 33, 'up_bound': 55, 'low_bound': 55, 'range_id': 8001622, 'range_label': '-0.09 cm'}, {'no': 34, 'up_bound': 56, 'low_bound': 56, 'range_id': 8001623, 'range_label': '-0.08 cm'}, {'no': 35, 'up_bound': 57, 'low_bound': 57, 'range_id': 8001624, 'range_label': '-0.07 cm'}, {'no': 36, 'up_bound': 58, 'low_bound': 58, 'range_id': 8001625, 'range_label': '-0.06 cm'}, {'no': 37, 'up_bound': 59, 'low_bound': 59, 'range_id': 8001626, 'range_label': '-0.05 cm'}, {'no': 38, 'up_bound': 60, 'low_bound': 60, 'range_id': 8001627, 'range_label': '-0.04 cm'}, {'no': 39, 'up_bound': 61, 'low_bound': 61, 'range_id': 8001628, 'range_label': '-0.03 cm'}, {'no': 40, 'up_bound': 62, 'low_bound': 62, 'range_id': 8001629, 'range_label': '-0.02 cm'}, {'no': 41, 'up_bound': 63, 'low_bound': 63, 'range_id': 8001630, 'range_label': '-0.01 cm'}]"
+Adjustment,5,Radius tyre adjust,1,1,118,127,1,0x67B6D73D,0x22,0x302,cm,0,3,1,2,-1,-1,-1,1,0,0,0,,0.01,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Clear,6,Calibration Initialize,1,1,98,108,1,0x67B6D73D,0x31,0x1,,,,,,,,,,,,,,,,,[]
+Clear,6,,,,,,,0x67B6D73D,,,,,,,,,,,,,,,,,,,[]
+Setting change,7,Function_Predictive course line avialability,1,1,99,109,1,0x67B6D73D,0x2E,0x401,,0,3,1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,8,Function_MOD,1,1,100,110,1,0x67B6D73D,0x2E,0x403,,0,3,1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,9,Function_Language,1,1,101,111,1,0x67B6D73D,0x2E,0x400,,0,3,1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,10,Function_Rear center line,1,1,102,112,1,0x67B6D73D,0x2E,0x404,,0,3,1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,7,Predictive course line avialability,1,1,119,128,1,0x67B6D73D,0x22,0x401,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Setting change,8,MOD,1,1,120,129,1,0x67B6D73D,0x22,0x403,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Setting change,9,Language,1,1,121,130,1,0x67B6D73D,0x22,0x400,,1,3,1,2,0,6,-1,1,0,0,1000525,-,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000525, 'range_label': '-'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8001226, 'range_label': 'ENGLISH'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 8001208, 'range_label': 'SPANISH'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8001219, 'range_label': 'FRENCH'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 8001203, 'range_label': 'DUTCH'}, {'no': 6, 'up_bound': 5, 'low_bound': 5, 'range_id': 8001213, 'range_label': 'GERMAN'}, {'no': 7, 'up_bound': 6, 'low_bound': 6, 'range_id': 8001201, 'range_label': 'ITALIAN'}, {'no': 8, 'up_bound': 7, 'low_bound': 7, 'range_id': 8001223, 'range_label': 'PORTUGAL'}, {'no': 9, 'up_bound': 8, 'low_bound': 8, 'range_id': 8001225, 'range_label': 'RUSSIAN'}, {'no': 10, 'up_bound': 9, 'low_bound': 9, 'range_id': 8001231, 'range_label': 'JAPANESE'}, {'no': 11, 'up_bound': 10, 'low_bound': 10, 'range_id': 8001229, 'range_label': 'CHINESE1'}, {'no': 12, 'up_bound': 11, 'low_bound': 11, 'range_id': 8001230, 'range_label': 'CHINESE2'}, {'no': 13, 'up_bound': 12, 'low_bound': 12, 'range_id': 8001227, 'range_label': 'KOREAN'}, {'no': 14, 'up_bound': 13, 'low_bound': 13, 'range_id': 8001200, 'range_label': 'ARABIC'}, {'no': 15, 'up_bound': 14, 'low_bound': 14, 'range_id': 8001199, 'range_label': 'ENGLISH(UK)'}, {'no': 16, 'up_bound': 15, 'low_bound': 15, 'range_id': 8001207, 'range_label': 'SPANISH(MEX)'}, {'no': 17, 'up_bound': 16, 'low_bound': 16, 'range_id': 8001218, 'range_label': 'FRENCH(CAN)'}, {'no': 18, 'up_bound': 17, 'low_bound': 17, 'range_id': 8001222, 'range_label': 'POR(BRA)'}, {'no': 19, 'up_bound': 18, 'low_bound': 18, 'range_id': 8001214, 'range_label': 'TURKISH'}, {'no': 20, 'up_bound': 19, 'low_bound': 19, 'range_id': 8001205, 'range_label': 'GREEK(LAT.)'}, {'no': 21, 'up_bound': 20, 'low_bound': 20, 'range_id': 8001204, 'range_label': 'GREEK(GK.)'}, {'no': 22, 'up_bound': 21, 'low_bound': 21, 'range_id': 8001221, 'range_label': 'POLISH'}, {'no': 23, 'up_bound': 22, 'low_bound': 22, 'range_id': 8001211, 'range_label': 'CZECH'}, {'no': 24, 'up_bound': 23, 'low_bound': 23, 'range_id': 8001209, 'range_label': 'SLOVAK'}, {'no': 25, 'up_bound': 24, 'low_bound': 24, 'range_id': 8001216, 'range_label': 'HUNGARIAN'}, {'no': 26, 'up_bound': 25, 'low_bound': 25, 'range_id': 8001212, 'range_label': 'DANISH'}, {'no': 27, 'up_bound': 26, 'low_bound': 26, 'range_id': 8001206, 'range_label': 'SWEDISH'}, {'no': 28, 'up_bound': 27, 'low_bound': 27, 'range_id': 8001217, 'range_label': 'FINNISH'}, {'no': 29, 'up_bound': 28, 'low_bound': 28, 'range_id': 8001215, 'range_label': 'NORWEGIAN'}, {'no': 30, 'up_bound': 29, 'low_bound': 29, 'range_id': 8001210, 'range_label': 'THAI'}, {'no': 31, 'up_bound': 30, 'low_bound': 30, 'range_id': 8001202, 'range_label': 'INDONESIAN'}, {'no': 32, 'up_bound': 31, 'low_bound': 31, 'range_id': 8001228, 'range_label': 'TAIWANESE'}, {'no': 33, 'up_bound': 32, 'low_bound': 32, 'range_id': 8001220, 'range_label': 'Hebrew'}, {'no': 34, 'up_bound': 33, 'low_bound': 33, 'range_id': 8001224, 'range_label': 'Romanian'}]"
+Setting change,10,Rear center line,1,1,122,131,1,0x67B6D73D,0x22,0x404,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"

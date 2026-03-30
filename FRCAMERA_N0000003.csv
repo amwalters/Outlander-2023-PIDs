@@ -1,0 +1,67 @@
+function,group,item,no,no_nas,qual_id,su_qual_id,visible,skey_sid_hex,qual_sid_hex,qual_lid_hex,param_unit,param_data_type,param_byte_pos,param_byte_len,param_byte_ord,param_bit_pos,param_bit_len,param_bit_mask,scale_no,scale_up_bound,scale_low_bound,scale_range_id,scale_range_label,scale_factor,scale_offset,scale_format,scale_labels
+Data List,All data,AIMING DONE,1,6,2,36,1,0x6F76770D,0x22,0x10C,,1,3,1,2,0,1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,AIMING RESULT,2,7,3,37,1,0x6F76770D,0x22,0x10D,,1,3,1,2,0,1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,AIM NG REASON,3,2,4,38,1,0x6F76770D,0x22,0x10E,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,AIM YAW,4,5,5,39,1,0x6F76770D,0x22,0x113,deg,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,4,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,AIM ROL,5,4,6,40,1,0x6F76770D,0x22,0x114,deg,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,4,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,AIM PIT,6,3,7,41,1,0x6F76770D,0x22,0x115,deg,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,4,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,FCTRY AIM YAW,7,27,8,42,1,0x6F76770D,0x22,0x116,deg,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,4,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,FCTRY AIM ROL,8,26,9,43,1,0x6F76770D,0x22,0x117,deg,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,4,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,FCTRY AIM PIT,9,25,10,44,1,0x6F76770D,0x22,0x118,deg,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,4,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Configuration result 1,10,20,11,45,1,0x6F76770D,0x22,0x2044,,1,3,1,2,0,1,-1,1,0,0,9100011,Finished,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100011, 'range_label': 'Finished'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1001711, 'range_label': 'Unfnshd'}]"
+Data List,All data,Configuration status,11,21,12,46,1,0x6F76770D,0x22,0x2045,,1,3,1,2,5,3,-1,1,0,0,8002219,Configuration Incomplete,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8002219, 'range_label': 'Configuration Incomplete'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8002220, 'range_label': 'Calibration Out Of Range'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 8002221, 'range_label': 'Initial Error'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8002222, 'range_label': 'NVRAM Error'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 8002223, 'range_label': 'Communication Error'}, {'no': 6, 'up_bound': 5, 'low_bound': 5, 'range_id': 8002224, 'range_label': 'Writing Error'}, {'no': 7, 'up_bound': 6, 'low_bound': 6, 'range_id': 8002225, 'range_label': 'Configuration Complete'}]"
+Data List,All data,Heater system,12,29,13,47,1,0x6F76770D,0x22,0x2060,,1,3,1,2,6,2,-1,1,0,0,8002044,Heater system not present,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8002044, 'range_label': 'Heater system not present'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8002045, 'range_label': 'Heater system present'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 8002046, 'range_label': 'Heater windshield present'}]"
+Data List,All data,ECU power supply voltage,13,23,14,48,1,0x6F76770D,0x22,0x2065,V,0,3,1,2,-1,-1,-1,1,0,0,0,,0.1,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Configuration type,14,22,15,49,1,0x6F76770D,0x22,0x2067,,1,3,1,2,7,1,-1,1,0,0,8002226,Triggered by routine,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8002226, 'range_label': 'Triggered by routine'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8002048, 'range_label': 'Automatic application'}]"
+Data List,All data,Vehicle type,15,33,16,50,1,0x6F76770D,0x22,0x2068,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Engine type,16,24,17,50,1,0x6F76770D,0x22,0x2068,,1,4,1,2,5,3,-1,1,0,0,1001724,ICE,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1001724, 'range_label': 'ICE'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000313, 'range_label': 'EV'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 7000314, 'range_label': 'HEV'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 7000316, 'range_label': 'PHEV'}]"
+Data List,All data,Manufacturer,17,30,18,50,1,0x6F76770D,0x22,0x2068,,1,4,1,2,2,3,-1,1,0,0,1001312,Renault,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1001312, 'range_label': 'Renault'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1001300, 'range_label': 'Nissan'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 1001313, 'range_label': 'Renault Sport'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 7000758, 'range_label': 'MMC'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 1001291, 'range_label': 'Daimler'}]"
+Data List,All data,Vehicle width,18,34,19,50,1,0x6F76770D,0x22,0x2068,,1,5,1,2,0,7,-1,1,0,0,0,,0.02,0.8,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Transmission type,19,31,20,50,1,0x6F76770D,0x22,0x2068,,1,6,1,2,6,1,-1,1,0,0,1000631,Manual,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000631, 'range_label': 'Manual'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8002227, 'range_label': 'Automatic'}]"
+Data List,All data,Adaptive LED Headlight (ALH),20,1,21,51,1,0x6F76770D,0x22,0x2069,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,HBA function,21,28,22,52,1,0x6F76770D,0x22,0x2079,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Camera image bottom,22,17,23,53,1,0x6F76770D,0x22,0x210A,pixel,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Camera height,23,16,24,53,1,0x6F76770D,0x22,0x210A,mm,0,4,2,2,-1,-1,65520,1,0,0,0,,0.0625,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Camera distance 1,24,14,25,53,1,0x6F76770D,0x22,0x210A,mm,0,5,2,2,-1,-1,4095,1,2047,0,0,,1,0,0,"[{'no': 1, 'up_bound': 2047, 'low_bound': 0, 'range_id': 0, 'range_label': None}, {'no': 2, 'up_bound': 4095, 'low_bound': 2048, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Camera distance 2,25,15,26,53,1,0x6F76770D,0x22,0x210A,mm,0,7,2,2,-1,-1,65520,1,0,0,0,,0.0625,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Camera offset,26,18,27,53,1,0x6F76770D,0x22,0x210A,mm,0,8,2,2,-1,-1,4095,1,2047,0,0,,1,0,0,"[{'no': 1, 'up_bound': 2047, 'low_bound': 0, 'range_id': 0, 'range_label': None}, {'no': 2, 'up_bound': 4095, 'low_bound': 2048, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Camera pitch,27,19,28,54,1,0x6F76770D,0x22,0x2302,deg,0,3,2,2,-1,-1,65534,1,0,0,0,,0.0005,-15,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Vehicle speed,28,32,29,55,1,0x6F76770D,0x22,0x2402,km/h,0,3,2,2,-1,-1,-1,1,0,0,0,,0.01,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Auto fix roll,29,10,30,56,1,0x6F76770D,0x22,0x4021,rad,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Auto fix pitch,30,8,31,56,1,0x6F76770D,0x22,0x4021,deg,0,5,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Auto fix yaw,31,12,32,56,1,0x6F76770D,0x22,0x4021,deg,0,7,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Auto fix roll delta error,32,11,33,56,1,0x6F76770D,0x22,0x4021,rad,0,9,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Auto fix pitch delta error,33,9,34,56,1,0x6F76770D,0x22,0x4021,pixel,0,10,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Auto fix yaw delta error,34,13,35,56,1,0x6F76770D,0x22,0x4021,pixel,0,11,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data gathering,,Data(DA00),1,1,61,0,1,0x6F76770D,0x22,0xDA00,,0,0,318,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA10),2,2,62,0,1,0x6F76770D,0x22,0xDA10,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA11),3,3,63,0,1,0x6F76770D,0x22,0xDA11,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA12),4,4,64,0,1,0x6F76770D,0x22,0xDA12,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA13),5,5,65,0,1,0x6F76770D,0x22,0xDA13,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA14),6,6,66,0,1,0x6F76770D,0x22,0xDA14,,0,0,72,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA50),7,7,67,0,1,0x6F76770D,0x22,0xDA50,,0,0,304,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA51),8,8,68,0,1,0x6F76770D,0x22,0xDA51,,0,0,304,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA52),9,9,69,0,1,0x6F76770D,0x22,0xDA52,,0,0,304,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA53),10,10,70,0,1,0x6F76770D,0x22,0xDA53,,0,0,304,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA54),11,11,71,0,1,0x6F76770D,0x22,0xDA54,,0,0,304,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA55),12,12,72,0,1,0x6F76770D,0x22,0xDA55,,0,0,304,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA56),13,13,73,0,1,0x6F76770D,0x22,0xDA56,,0,0,304,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA57),14,14,74,0,1,0x6F76770D,0x22,0xDA57,,0,0,304,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA58),15,15,75,0,1,0x6F76770D,0x22,0xDA58,,0,0,304,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA59),16,16,76,0,1,0x6F76770D,0x22,0xDA59,,0,0,304,2,-1,-1,-1,,,,,,,,,[]
+Freeze Frame Data,Fuel control,ODO/TRIP METER,10,20,301,0,1,0x6F76770D,0xF0,0xD0,km,0,2,3,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,DTC count,20,10,302,0,1,0x6F76770D,0xF0,0xD1,count,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+ECU Information,Idle control,ECU PART NUMBER,1,1,305,0,1,0x6F76770D,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Software part number,1,1,117081,0,1,0x6F76770D,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Hardware part number,2,2,117082,0,1,0x6F76770D,0x22,0xF1A1,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),ECU serial number,3,3,117083,0,1,0x6F76770D,0x22,0xF18C,,0,3,-1,2,-1,-1,-1,,,,,,,,,[]
+AUTO AIM,Fuel control,Dummy1,1,1,321,0,1,0x6F76770D,0x31,0x1,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+AUTO AIM,Fuel control,Dummy2,2,2,322,0,1,0x6F76770D,0x31,0x3,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+AUTO AIM,Fuel control,Dummy3,3,3,323,0,1,0x6F76770D,0x31,0x1,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+AUTO AIM,Fuel control,Dummy4,4,4,324,0,1,0x6F76770D,0x31,0x3,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+AUTO AIM,Fuel control,Dummy5,5,5,325,0,1,0x6F76770D,0x22,0x10C,,1,3,1,2,0,1,-1,,,,,,,,,[]
+AUTO AIM,Fuel control,Dummy6,6,6,326,0,1,0x6F76770D,0x22,0x10D,,1,3,1,2,0,1,-1,,,,,,,,,[]
+AUTO AIM,Fuel control,FCTRY AIM YAW,7,7,327,0,1,0x6F76770D,0x22,0x116,deg,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,4,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+AUTO AIM,Fuel control,FCTRY AIM ROL,8,8,328,0,1,0x6F76770D,0x22,0x117,deg,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,4,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+AUTO AIM,Fuel control,FCTRY AIM PIT,9,9,329,0,1,0x6F76770D,0x22,0x118,deg,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0004,0,4,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+AUTO AIM,Fuel control,Dummy10,10,10,330,0,1,0x6F76770D,0x22,0x10E,,1,3,1,2,0,6,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"

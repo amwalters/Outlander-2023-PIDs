@@ -1,0 +1,557 @@
+function,group,item,no,no_nas,qual_id,su_qual_id,visible,skey_sid_hex,qual_sid_hex,qual_lid_hex,param_unit,param_data_type,param_byte_pos,param_byte_len,param_byte_ord,param_bit_pos,param_bit_len,param_bit_mask,scale_no,scale_up_bound,scale_low_bound,scale_range_id,scale_range_label,scale_factor,scale_offset,scale_format,scale_labels
+Data List,All data,Mileage,1,93,91,232,1,0x398691,0x22,0xF0D0,km,0,3,3,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Battery Voltage,2,12,92,181,1,0x398691,0x22,0x4000,V,0,3,1,2,-1,-1,-1,1,0,0,0,,0.07326,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Vehicle Speed,3,160,93,182,1,0x398691,0x22,0x4001,km/h,0,3,1,2,-1,-1,-1,1,0,0,0,,2,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Crank Angle Sensor (Engine RPM),4,25,94,183,1,0x398691,0x22,0x4002,r/min,0,3,2,2,-1,-1,-1,1,0,0,0,,0.12207,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Air Temperature Sensor,5,7,95,184,1,0x398691,0x22,0x4004,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Coolant (Water) Temperature Sensor,6,22,96,185,1,0x398691,0x22,0x4005,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Boost Sensor,7,13,97,186,1,0x398691,0x22,0x4009,kPa,0,3,2,2,-1,-1,-1,1,0,0,0,,0.00193259,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Air flow Sensor,8,6,98,187,1,0x398691,0x22,0x400B,g/s,0,3,2,2,-1,-1,-1,1,0,0,0,,0.02,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,TPS (Main),9,147,99,188,1,0x398691,0x22,0x400D,mV,0,3,1,2,-1,-1,-1,1,0,0,0,,19.53125,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,TPS (Sub),10,149,100,189,1,0x398691,0x22,0x400E,mV,0,3,1,2,-1,-1,-1,1,0,0,0,,19.53125,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,TPS (Main) Learning value under ETV deactivation,11,148,101,190,1,0x398691,0x22,0x400F,mV,0,3,1,2,-1,-1,-1,1,0,0,0,,19.53125,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Adv.Ignition,12,5,102,191,1,0x398691,0x22,0x4012,°CA,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-20,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Injector,13,77,103,192,1,0x398691,0x22,0x4013,ms,0,3,1,2,-1,-1,-1,1,0,0,0,,0.256,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Short term fuel trimming (bank1),14,132,104,193,1,0x398691,0x22,0x401B,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39,-49.92,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Long term fuel trimming (bank1),15,88,105,194,1,0x398691,0x22,0x401C,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39,-49.92,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Knock Retard,16,80,106,195,1,0x398691,0x22,0x401F,°CA,0,3,1,2,-1,-1,-1,1,0,0,0,,0.3515625,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Learned Knock,17,82,107,196,1,0x398691,0x22,0x4020,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.392157,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,EGR STEP,18,33,108,197,1,0x398691,0x22,0x4021,step,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,OCV Current Value(Intake-bank1),19,96,109,198,1,0x398691,0x22,0x4027,mA,0,3,2,2,-1,-1,-1,1,0,0,0,,0.030518,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,V.V.T. RA(Intake-bank1),20,156,110,199,1,0x398691,0x22,0x4028,°CA,0,3,1,2,-1,-1,-1,1,0,0,0,,0.625,-80,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,V.V.T. Target RA(Intake-bank1),21,157,111,200,1,0x398691,0x22,0x4029,°CA,0,3,2,2,-1,-1,-1,1,0,0,0,,0.01953125,-80,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,RFAN DUTY,22,120,112,201,1,0x398691,0x22,0x4033,%,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Purge Solenoid Duty,23,106,113,202,1,0x398691,0x22,0x4037,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.392157,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Fuel tank pressure sensor,24,74,114,203,1,0x398691,0x22,0x403C,mV,0,3,2,2,-1,-1,-1,1,0,0,0,,4.8828125,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,ETV Target Value,25,42,115,204,1,0x398691,0x22,0x4040,V,0,3,2,2,-1,-1,-1,1,0,0,0,,0.001220703,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Vehicle Speed (for Low Speed),26,161,116,205,1,0x398691,0x22,0x4045,km/h,0,3,2,2,-1,-1,-1,1,0,0,0,,0.25,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,TPS(MAIN) Learned Value (Closed Position),27,150,117,206,1,0x398691,0x22,0x4049,V,0,3,2,2,-1,-1,-1,1,0,0,0,,0.004882813,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,TPS(MAIN) Learned Value (Full Open Position),28,151,118,207,1,0x398691,0x22,0x404A,V,0,3,2,2,-1,-1,-1,1,0,0,0,,0.004882813,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,TPS(SUB) Learned Value (Closed Position),29,152,119,208,1,0x398691,0x22,0x404B,V,0,3,2,2,-1,-1,-1,1,0,0,0,,0.004882813,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,TPS(SUB) Learned Value (Full Open Position),30,153,120,209,1,0x398691,0x22,0x404C,V,0,3,2,2,-1,-1,-1,1,0,0,0,,0.004882813,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Calculated Load Value,31,16,121,210,1,0x398691,0x22,0x4051,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.392157,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Absolute Load Value,32,1,122,211,1,0x398691,0x22,0x4052,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.392157,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Oil pressure SW,33,98,123,212,1,0x398691,0x22,0x4056,,1,4,1,2,1,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,IGKEY SW,34,76,124,212,1,0x398691,0x22,0x4056,,1,4,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Line Off Pump Monitor NG,35,83,125,212,1,0x398691,0x22,0x4056,,1,6,1,2,6,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,EGI RLY,36,30,126,213,1,0x398691,0x22,0x4057,,1,3,1,2,5,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,ETV RLY,37,41,127,213,1,0x398691,0x22,0x4057,,1,3,1,2,2,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,FUEL PUMP RLY,38,56,128,213,1,0x398691,0x22,0x4057,,1,3,1,2,1,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Refuel control interruption for fuel tank pressure NG,39,111,129,213,1,0x398691,0x22,0x4057,,1,4,1,2,6,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Refuel control interruption for refuel system circuit check NG,40,112,130,213,1,0x398691,0x22,0x4057,,1,4,1,2,5,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Refuel CONT. interruption for refuel system functional check NG,41,110,131,213,1,0x398691,0x22,0x4057,,1,4,1,2,4,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Vent valve stuck open NG,42,164,132,213,1,0x398691,0x22,0x4057,,1,5,1,2,7,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Reference orifice low flow NG,43,109,133,213,1,0x398691,0x22,0x4057,,1,5,1,2,6,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Reference orifice high flow NG,44,108,134,213,1,0x398691,0x22,0x4057,,1,5,1,2,5,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Pump pulsation NG,45,105,135,213,1,0x398691,0x22,0x4057,,1,5,1,2,4,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Vent valve stuck closed or Pump NG,46,163,136,213,1,0x398691,0x22,0x4057,,1,5,1,2,3,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Tank pressure sensor noise NG,47,138,137,213,1,0x398691,0x22,0x4057,,1,5,1,2,2,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Canister pressure sensor noise NG,48,19,138,213,1,0x398691,0x22,0x4057,,1,5,1,2,1,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Canister pressure sensor- MAPS correlation NG,49,18,139,213,1,0x398691,0x22,0x4057,,1,5,1,2,0,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Tank differential pressure sensor noise NG,50,136,140,213,1,0x398691,0x22,0x4057,,1,6,1,2,7,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Bypass valve stuck closed NG,51,14,141,213,1,0x398691,0x22,0x4057,,1,6,1,2,6,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Bypass valve stuck open NG,52,15,142,213,1,0x398691,0x22,0x4057,,1,6,1,2,5,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,EVP leak from tank NG,53,51,143,213,1,0x398691,0x22,0x4057,,1,6,1,2,4,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,EVP leak from canister NG,54,50,144,213,1,0x398691,0x22,0x4057,,1,6,1,2,3,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Sealing valve stuck open NG,55,122,145,213,1,0x398691,0x22,0x4057,,1,6,1,2,2,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Purge valve stuck closed NG,56,107,146,213,1,0x398691,0x22,0x4057,,1,6,1,2,1,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Sealing valve stuck closed NG,57,121,147,213,1,0x398691,0x22,0x4057,,1,6,1,2,0,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Data List,All data,Refuel System Control Relay Bypass Cut Request,58,114,148,213,1,0x398691,0x22,0x4057,,1,7,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Wake Up signal for Evap System,59,165,149,213,1,0x398691,0x22,0x4057,,1,7,1,2,6,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Wake Up signal for Refuel System,60,166,150,213,1,0x398691,0x22,0x4057,,1,7,1,2,5,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Fuel Fill Door Motor relay,61,53,151,213,1,0x398691,0x22,0x4057,,1,7,1,2,4,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,EVAP System Leak Detection Pump control,62,45,152,213,1,0x398691,0x22,0x4057,,1,7,1,2,3,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,EVAP System Switching Valve,63,47,153,213,1,0x398691,0x22,0x4057,,1,7,1,2,2,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,EVAP System Vent Valve,64,48,154,213,1,0x398691,0x22,0x4057,,1,7,1,2,1,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,EVAP System Bypass Solenoid,65,44,155,213,1,0x398691,0x22,0x4057,,1,7,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,State Data for Current VIN,66,134,156,214,1,0x398691,0x22,0x405A,,0,3,1,2,-1,-1,-1,1,0,0,8002863,Write completed/Not performed,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 8002863, 'range_label': 'Write completed/Not performed'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000839, 'range_label': 'Writing'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 7000838, 'range_label': 'Write failed(ECU internal error)'}, {'no': 4, 'up_bound': 4, 'low_bound': 4, 'range_id': 7000837, 'range_label': 'Write failed(ECU checkdigit NG)'}]"
+Data List,All data,Counter value for writing current VIN,67,24,157,215,1,0x398691,0x22,0x405B,count,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Counter value for flash CRC check fail,68,23,158,216,1,0x398691,0x22,0x405C,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,V.V.T. Learned Value (IN),69,155,159,217,1,0x398691,0x22,0x405F,°CA,0,3,2,2,-1,-1,-1,1,0,0,0,,0.01953125,-80,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,M_STA,70,91,160,218,1,0x398691,0x22,0x4072,Nm,0,3,1,2,-1,-1,-1,1,0,0,0,,4,-500,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,M_MAX,71,89,161,219,1,0x398691,0x22,0x4073,Nm,0,3,1,2,-1,-1,-1,1,0,0,0,,4,-500,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,M_MIN_FC,72,90,162,220,1,0x398691,0x22,0x4074,Nm,0,3,1,2,-1,-1,-1,1,0,0,0,,4,-500,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Torque Request,73,144,163,221,1,0x398691,0x22,0x4075,Nm,0,3,2,2,-1,-1,-1,1,0,0,0,,64,-500,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Generator torque,74,75,164,222,1,0x398691,0x22,0x4077,Nm,0,3,1,2,-1,-1,-1,1,0,0,0,,4,-500,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Request of fuel maintenance mode,75,119,165,223,1,0x398691,0x22,0x4078,,1,3,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Request of EV inhibition,76,118,166,223,1,0x398691,0x22,0x4078,,1,3,1,2,6,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Vapor line clogged NG,77,158,167,223,1,0x398691,0x22,0x4078,,1,3,1,2,2,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Tank differential pressure sensor shift NG,78,137,168,223,1,0x398691,0x22,0x4078,,1,3,1,2,1,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Tank pressure sensor stuck NG,79,139,169,223,1,0x398691,0x22,0x4078,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Fuel Cut Indicate,80,52,170,223,1,0x398691,0x22,0x4078,,1,4,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Cranking Execution,81,27,171,223,1,0x398691,0x22,0x4078,,1,4,1,2,6,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Stopping Execution,82,135,172,223,1,0x398691,0x22,0x4078,,1,4,1,2,5,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,Refuel System Differential Pressure Sensor,83,115,173,224,1,0x398691,0x22,0x407E,kPa,0,3,2,2,-1,-1,-1,1,0,0,0,,0.01,-10,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,EVAP System Absolute Pressure Sensor,84,43,174,225,1,0x398691,0x22,0x407F,kPa,0,3,2,2,-1,-1,-1,1,0,0,0,,0.12373,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,EVAP System Leak Detection Pump Pressure Sensor,85,46,175,226,1,0x398691,0x22,0x4080,kPa,0,3,2,2,-1,-1,-1,1,0,0,0,,0.09,33.84,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Fuel Fill Door Position Sensor Voltage,86,54,176,227,1,0x398691,0x22,0x4081,V,0,3,2,2,-1,-1,-1,1,0,0,0,,0.004882813,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Refuel System Control Relay Bypass Cut Monitor Circuit,87,113,177,228,1,0x398691,0x22,0x4082,V,0,3,2,2,-1,-1,-1,1,0,0,0,,0.004882813,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Common driving condition for PDTC clear in current driving cycle,88,21,234,235,1,0x398691,0x22,0x4088,,0,3,1,2,-1,-1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,EGR Gas Temperature,89,31,178,229,1,0x398691,0x22,0x4089,°C,0,3,2,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Crank angle sensor edge learning status,90,26,179,230,1,0x398691,0x22,0x408A,,0,3,1,2,-1,-1,-1,1,0,0,1000011,Not completed,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000011, 'range_label': 'Not completed'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000010, 'range_label': 'Completed'}]"
+Data List,All data,ENG RUN Mileage,91,34,180,231,1,0x398691,0x22,0x4A02,km,0,3,4,2,-1,-1,-1,1,0,0,0,,0.1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Fuel system status A:OL,92,59,1307,0,1,0x398691,0x1,0x3,,1,2,1,2,0,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status A:CL,93,57,1308,0,1,0x398691,0x1,0x3,,1,2,1,2,1,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status A:OL-Drive,94,61,1309,0,1,0x398691,0x1,0x3,,1,2,1,2,2,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status A:OL-Fault,95,63,1310,0,1,0x398691,0x1,0x3,,1,2,1,2,3,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status A:CL-Fault,96,58,1311,0,1,0x398691,0x1,0x3,,1,2,1,2,4,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status A:OL B2,97,60,1312,0,1,0x398691,0x1,0x3,,1,2,1,2,5,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status A:OL-Drive B2,98,62,1313,0,1,0x398691,0x1,0x3,,1,2,1,2,6,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status A:OL-Fault B2,99,64,1314,0,1,0x398691,0x1,0x3,,1,2,1,2,7,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status B:OL,100,67,1315,0,1,0x398691,0x1,0x3,,1,3,1,2,0,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status B:CL,101,65,1316,0,1,0x398691,0x1,0x3,,1,3,1,2,1,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status B:OL-Drive,102,69,1317,0,1,0x398691,0x1,0x3,,1,3,1,2,2,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status B:OL-Fault,103,71,1318,0,1,0x398691,0x1,0x3,,1,3,1,2,3,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status B:CL-Fault,104,66,1319,0,1,0x398691,0x1,0x3,,1,3,1,2,4,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status B:OL B2,105,68,1320,0,1,0x398691,0x1,0x3,,1,3,1,2,5,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status B:OL-Drive B2,106,70,1321,0,1,0x398691,0x1,0x3,,1,3,1,2,6,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Fuel system status B:OL-Fault B2,107,72,1322,0,1,0x398691,0x1,0x3,,1,3,1,2,7,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Data List,All data,Calculated load value,108,17,1323,0,1,0x398691,0x1,0x4,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Engine coolant TEMP.sensor,109,29,1324,0,1,0x398691,0x1,0x5,°C,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Short term fuel trim 1,110,130,1325,0,1,0x398691,0x1,0x6,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Long term fuel trim 1,111,85,1326,0,1,0x398691,0x1,0x7,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Short term fuel trim 2,112,131,1327,0,1,0x398691,0x1,0x8,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Long term fuel trim 2,113,87,1328,0,1,0x398691,0x1,0x9,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,MAP sensor,114,92,1329,0,1,0x398691,0x1,0xB,kPa,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Crank angle sensor,115,28,1330,0,1,0x398691,0x1,0xC,r/min,0,2,2,2,-1,-1,-1,1,0,0,0,,0.25,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Vehicle speed,116,162,1331,0,1,0x398691,0x1,0xD,km/h,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Advance ignition,117,133,1332,0,1,0x398691,0x1,0xE,°CA,0,2,1,2,-1,-1,-1,1,0,0,0,,0.5,-64,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Intake air temperature sensor 1,118,78,1333,0,1,0x398691,0x1,0xF,°C,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Airflow sensor,119,8,1334,0,1,0x398691,0x1,0x10,g/s,0,2,2,2,-1,-1,-1,1,0,0,0,,0.01,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,TPS(main),120,145,1335,0,1,0x398691,0x1,0x11,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Oxygen sensor (front),121,99,1336,0,1,0x398691,0x1,0x14,V,0,2,1,2,-1,-1,-1,1,0,0,0,,0.005,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Short term fuel trim (Oxygen sensor (front)),122,125,1337,0,1,0x398691,0x1,0x14,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Oxygen sensor (rear),123,100,1338,0,1,0x398691,0x1,0x15,V,0,2,1,2,-1,-1,-1,1,0,0,0,,0.005,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Short term fuel trim (Oxygen sensor (rear)),124,126,1339,0,1,0x398691,0x1,0x15,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Oxygen sensor3 (rear),125,101,1340,0,1,0x398691,0x1,0x16,V,0,2,1,2,-1,-1,-1,1,0,0,0,,0.005,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Short term fuel trim (Oxygen sensor3 (rear)),126,127,1341,0,1,0x398691,0x1,0x16,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Oxygen sensor2 (front),127,102,1342,0,1,0x398691,0x1,0x18,V,0,2,1,2,-1,-1,-1,1,0,0,0,,0.005,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Short term fuel trim (Oxygen sensor2 (front)),128,128,1343,0,1,0x398691,0x1,0x18,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Oxygen sensor2 (rear),129,103,1344,0,1,0x398691,0x1,0x19,V,0,2,1,2,-1,-1,-1,1,0,0,0,,0.005,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Short term fuel trim (Oxygen sensor2 (rear)),130,129,1345,0,1,0x398691,0x1,0x19,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Time since engine running,131,143,1346,0,1,0x398691,0x1,0x1F,sec,0,2,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Mileage since MIL lighting,132,95,1347,0,1,0x398691,0x1,0x21,km,0,2,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Target EGR,133,140,1348,0,1,0x398691,0x1,0x2C,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,EVAP.emission purge SOL.duty,134,49,1349,0,1,0x398691,0x1,0x2E,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Fuel level input,135,55,1350,0,1,0x398691,0x1,0x2F,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Warm up cycle since Erase DTCs,136,167,1351,0,1,0x398691,0x1,0x30,cycle,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Mileage since Erase DTCs,137,94,1352,0,1,0x398691,0x1,0x31,km,0,2,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Fuel tank differential PRS.SNSR,138,73,1353,0,1,0x398691,0x1,0x32,Pa,0,2,2,2,-1,-1,-1,1,0,0,0,,0.25,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Barometric pressure sensor,139,11,1354,0,1,0x398691,0x1,0x33,kPa,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Equivalence Ratio (LAFS (front)),140,40,1355,0,1,0x398691,0x1,0x34,,0,2,2,2,-1,-1,-1,1,0,0,0,,0.0000305,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,LAFS (front),141,81,1356,0,1,0x398691,0x1,0x34,mA,0,4,2,2,-1,-1,-1,1,0,0,0,,0.003906,-128,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Catalyst temperature,142,20,1357,0,1,0x398691,0x1,0x3C,°C,0,2,2,2,-1,-1,-1,1,0,0,0,,0.1,-40,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Power supply voltage,143,104,1358,0,1,0x398691,0x1,0x42,V,0,2,2,2,-1,-1,-1,1,0,0,0,,0.001,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Absolute load value,144,2,1359,0,1,0x398691,0x1,0x43,%,0,2,2,2,-1,-1,-1,1,0,0,0,,0.39215,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Target equivalence ratio,145,141,1360,0,1,0x398691,0x1,0x44,,0,2,2,2,-1,-1,-1,1,0,0,0,,0.0000305,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Relative TPS,146,117,1361,0,1,0x398691,0x1,0x45,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Intake air temperature sensor 1,147,79,1362,0,1,0x398691,0x1,0x46,°C,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,TPS(sub),148,146,1363,0,1,0x398691,0x1,0x47,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,APS(main),149,9,1364,0,1,0x398691,0x1,0x49,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,APS(sub),150,10,1365,0,1,0x398691,0x1,0x4A,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Throttle actuator,151,142,1366,0,1,0x398691,0x1,0x4C,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Type of fuel,152,154,1367,0,1,0x398691,0x1,0x51,,0,2,1,2,-1,-1,-1,1,0,0,2000000005,N/A,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 2000000005, 'range_label': 'N/A'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 2000000057, 'range_label': 'Gasoline'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 2000000058, 'range_label': 'Methanol'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 2000000059, 'range_label': 'Ethanol'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 2000000060, 'range_label': 'Diesel'}, {'no': 6, 'up_bound': 5, 'low_bound': 5, 'range_id': 2000000061, 'range_label': 'LPG'}, {'no': 7, 'up_bound': 6, 'low_bound': 6, 'range_id': 2000000062, 'range_label': 'CNG'}, {'no': 8, 'up_bound': 7, 'low_bound': 7, 'range_id': 2000000063, 'range_label': 'Propane'}, {'no': 9, 'up_bound': 8, 'low_bound': 8, 'range_id': 2000000064, 'range_label': 'Battery'}, {'no': 10, 'up_bound': 9, 'low_bound': 9, 'range_id': 2000000065, 'range_label': 'Bi-fuel Gasoline'}, {'no': 11, 'up_bound': 10, 'low_bound': 10, 'range_id': 2000000066, 'range_label': 'Bi-fuel Methanol'}, {'no': 12, 'up_bound': 11, 'low_bound': 11, 'range_id': 2000000067, 'range_label': 'Bi-fuel Ethanol'}, {'no': 13, 'up_bound': 12, 'low_bound': 12, 'range_id': 2000000068, 'range_label': 'Bi-fuel LPG'}, {'no': 14, 'up_bound': 13, 'low_bound': 13, 'range_id': 2000000069, 'range_label': 'Bi-fuel CNG'}, {'no': 15, 'up_bound': 14, 'low_bound': 14, 'range_id': 2000000070, 'range_label': 'Bi-fuel Propane'}, {'no': 16, 'up_bound': 15, 'low_bound': 15, 'range_id': 2000000071, 'range_label': 'Bi-fuel Battery'}, {'no': 17, 'up_bound': 16, 'low_bound': 16, 'range_id': 2000000072, 'range_label': 'Bi-fuel MIX'}, {'no': 18, 'up_bound': 17, 'low_bound': 17, 'range_id': 2000000073, 'range_label': 'Hybrid Gasoline'}, {'no': 19, 'up_bound': 18, 'low_bound': 18, 'range_id': 2000000074, 'range_label': 'Hybrid Ethanol'}, {'no': 20, 'up_bound': 19, 'low_bound': 19, 'range_id': 2000000075, 'range_label': 'Hybrid Diesel'}, {'no': 21, 'up_bound': 20, 'low_bound': 20, 'range_id': 2000000076, 'range_label': 'Hybrid Battery'}, {'no': 22, 'up_bound': 21, 'low_bound': 21, 'range_id': 2000000077, 'range_label': 'Hybrid MIX'}, {'no': 23, 'up_bound': 22, 'low_bound': 22, 'range_id': 2000000078, 'range_label': 'Hybrid Reg. Mode'}]"
+Data List,All data,Short term fuel trim 1 (Oxygen sensor (rear)),153,123,1368,0,1,0x398691,0x1,0x55,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Long term fuel trim 1 (Oxygen sensor (rear)),154,84,1369,0,1,0x398691,0x1,0x56,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Short term fuel trim 2 (Oxygen sensor (rear)),155,124,1370,0,1,0x398691,0x1,0x57,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Long term fuel trim 2 (Oxygen sensor (rear)),156,86,1371,0,1,0x398691,0x1,0x58,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Relative APS,157,116,1372,0,1,0x398691,0x1,0x5A,%,0,2,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Engine fuel rate(L/h),158,38,1373,0,1,0x398691,0x1,0x5E,L/h,0,2,2,2,-1,-1,-1,1,0,0,0,,0.05,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Actual engine torque,159,4,1374,0,1,0x398691,0x1,0x62,%,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-125,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Engine reference torque,160,39,1375,0,1,0x398691,0x1,0x63,Nm,0,2,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,EGR gas temperature (bank1 sensor2),161,32,1376,0,1,0x398691,0x1,0x6B,°C,0,4,1,2,-1,-1,-1,1,0,0,0,,4,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Engine friction torque,162,36,1377,0,1,0x398691,0x1,0x8E,%,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-125,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Accumulated engine running time (MIL ON),163,3,1559,0,1,0x398691,0x1,0x93,h,0,3,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Engine fuel rate,164,37,1378,0,1,0x398691,0x1,0x9D,g/s,0,2,2,2,-1,-1,-1,1,0,0,0,,0.02,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Vehicle fuel rate,165,159,1379,0,1,0x398691,0x1,0x9D,g/s,0,4,2,2,-1,-1,-1,1,0,0,0,,0.02,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Engine exhaust flow rate,166,35,1380,0,1,0x398691,0x1,0x9E,kg/h,0,2,2,2,-1,-1,-1,1,0,0,0,,0.2,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Odometer,167,97,1381,0,1,0x398691,0x1,0xA6,km,0,2,4,2,-1,-1,-1,1,0,0,0,,0.1,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data gathering,Idle control,Data(DA00),1,1,63,0,1,0x398691,0x22,0xDA00,,0,0,318,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA10),2,2,64,0,1,0x398691,0x22,0xDA10,,0,0,77,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA11),3,3,65,0,1,0x398691,0x22,0xDA11,,0,0,77,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA12),4,4,66,0,1,0x398691,0x22,0xDA12,,0,0,77,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA13),5,5,67,0,1,0x398691,0x22,0xDA13,,0,0,77,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA14),6,6,68,0,1,0x398691,0x22,0xDA14,,0,0,77,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA30),7,7,69,0,1,0x398691,0x22,0xDA30,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA31),8,8,70,0,1,0x398691,0x22,0xDA31,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA32),9,9,71,0,1,0x398691,0x22,0xDA32,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA33),10,10,72,0,1,0x398691,0x22,0xDA33,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA34),11,11,73,0,1,0x398691,0x22,0xDA34,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA35),12,12,74,0,1,0x398691,0x22,0xDA35,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA36),13,13,75,0,1,0x398691,0x22,0xDA36,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA50),14,14,76,0,1,0x398691,0x22,0xDA50,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA51),15,15,77,0,1,0x398691,0x22,0xDA51,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA52),16,16,78,0,1,0x398691,0x22,0xDA52,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA53),17,17,79,0,1,0x398691,0x22,0xDA53,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA54),18,18,80,0,1,0x398691,0x22,0xDA54,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA55),19,19,81,0,1,0x398691,0x22,0xDA55,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA56),20,20,82,0,1,0x398691,0x22,0xDA56,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA70),21,21,83,0,1,0x398691,0x22,0xDA70,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA71),22,22,84,0,1,0x398691,0x22,0xDA71,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA72),23,23,85,0,1,0x398691,0x22,0xDA72,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA73),24,24,86,0,1,0x398691,0x22,0xDA73,,0,0,78,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA90),25,25,87,0,1,0x398691,0x22,0xDA90,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA91),26,26,88,0,1,0x398691,0x22,0xDA91,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA92),27,27,89,0,1,0x398691,0x22,0xDA92,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,Idle control,Data(DA93),28,28,90,0,1,0x398691,0x22,0xDA93,,0,0,1419,2,-1,-1,-1,,,,,,,,,[]
+Freeze Frame Data(OBD),Session,,,,,,,0x398691,,,,,,,,,,,,,,,,,,,[]
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status A:OL,1,14,1201,1501,1,0x398691,0x2,0x3,,1,3,1,2,0,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status A:CL,2,12,1202,1502,1,0x398691,0x2,0x3,,1,3,1,2,1,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status A:OL-Drive,3,16,1203,1503,1,0x398691,0x2,0x3,,1,3,1,2,2,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status A:OL-Fault,4,18,1204,1504,1,0x398691,0x2,0x3,,1,3,1,2,3,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status A:CL-Fault,5,13,1205,1505,1,0x398691,0x2,0x3,,1,3,1,2,4,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status A:OL B2,6,15,1206,1506,1,0x398691,0x2,0x3,,1,3,1,2,5,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status A:OL-Drive B2,7,17,1207,1507,1,0x398691,0x2,0x3,,1,3,1,2,6,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status A:OL-Fault B2,8,19,1208,1508,1,0x398691,0x2,0x3,,1,3,1,2,7,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status B:OL,9,22,1209,1509,1,0x398691,0x2,0x3,,1,4,1,2,0,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status B:CL,10,20,1210,1510,1,0x398691,0x2,0x3,,1,4,1,2,1,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status B:OL-Drive,11,24,1211,1511,1,0x398691,0x2,0x3,,1,4,1,2,2,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status B:OL-Fault,12,26,1212,1512,1,0x398691,0x2,0x3,,1,4,1,2,3,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status B:CL-Fault,13,21,1213,1513,1,0x398691,0x2,0x3,,1,4,1,2,4,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status B:OL B2,14,23,1214,1514,1,0x398691,0x2,0x3,,1,4,1,2,5,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status B:OL-Drive B2,15,25,1215,1515,1,0x398691,0x2,0x3,,1,4,1,2,6,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel system status B:OL-Fault B2,16,27,1216,1516,1,0x398691,0x2,0x3,,1,4,1,2,7,1,-1,1,0,0,3000253,No,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 3000253, 'range_label': 'No'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 3000254, 'range_label': 'Yes'}]"
+Freeze Frame Data(OBD),FFD(OBD),Calculated load value,17,6,1217,1517,1,0x398691,0x2,0x4,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Engine coolant TEMP.sensor,18,8,1218,1518,1,0x398691,0x2,0x5,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Short term fuel trim 1,19,41,1219,1519,1,0x398691,0x2,0x6,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Long term fuel trim 1,20,32,1220,1520,1,0x398691,0x2,0x7,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Short term fuel trim 2,21,42,1221,1521,1,0x398691,0x2,0x8,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Long term fuel trim 2,22,34,1222,1522,1,0x398691,0x2,0x9,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),MAP sensor,23,35,1223,1523,1,0x398691,0x2,0xB,kPa,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Crank angle sensor,24,7,1224,1524,1,0x398691,0x2,0xC,r/min,0,3,2,2,-1,-1,-1,1,0,0,0,,0.25,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Vehicle speed,25,51,1225,1525,1,0x398691,0x2,0xD,km/h,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Advance ignition,26,43,1226,1526,1,0x398691,0x2,0xE,°CA,0,3,1,2,-1,-1,-1,1,0,0,0,,0.5,-64,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Intake air temperature sensor 1,27,29,1227,1527,1,0x398691,0x2,0xF,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Airflow sensor,28,2,1228,1528,1,0x398691,0x2,0x10,g/s,0,3,2,2,-1,-1,-1,1,0,0,0,,0.01,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),TPS(main),29,48,1229,1529,1,0x398691,0x2,0x11,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Time since engine running,30,47,1230,1530,1,0x398691,0x2,0x1F,sec,0,3,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Target EGR,31,44,1231,1531,1,0x398691,0x2,0x2C,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),EVAP.emission purge SOL.duty,32,10,1232,1532,1,0x398691,0x2,0x2E,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel level input,33,11,1233,1533,1,0x398691,0x2,0x2F,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Fuel tank differential PRS.SNSR,34,28,1234,1534,1,0x398691,0x2,0x32,Pa,0,3,2,2,-1,-1,-1,1,0,0,0,,0.25,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Barometric pressure sensor,35,5,1235,1535,1,0x398691,0x2,0x33,kPa,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Power supply voltage,36,36,1236,1536,1,0x398691,0x2,0x42,V,0,3,2,2,-1,-1,-1,1,0,0,0,,0.001,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Absolute load value,37,1,1237,1537,1,0x398691,0x2,0x43,%,0,3,2,2,-1,-1,-1,1,0,0,0,,0.39215,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Target equivalence ratio,38,45,1238,1538,1,0x398691,0x2,0x44,,0,3,2,2,-1,-1,-1,1,0,0,0,,0.0000305,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Relative TPS,39,38,1239,1539,1,0x398691,0x2,0x45,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Intake air temperature sensor 1,40,30,1240,1540,1,0x398691,0x2,0x46,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),TPS(sub),41,49,1241,1541,1,0x398691,0x2,0x47,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),APS(main),42,3,1242,1542,1,0x398691,0x2,0x49,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),APS(sub),43,4,1243,1543,1,0x398691,0x2,0x4A,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Throttle actuator,44,46,1244,1544,1,0x398691,0x2,0x4C,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Type of fuel,45,50,1245,1545,1,0x398691,0x2,0x51,,0,3,1,2,-1,-1,-1,1,0,0,2000000005,N/A,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 2000000005, 'range_label': 'N/A'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 2000000057, 'range_label': 'Gasoline'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 2000000058, 'range_label': 'Methanol'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 2000000059, 'range_label': 'Ethanol'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 2000000060, 'range_label': 'Diesel'}, {'no': 6, 'up_bound': 5, 'low_bound': 5, 'range_id': 2000000061, 'range_label': 'LPG'}, {'no': 7, 'up_bound': 6, 'low_bound': 6, 'range_id': 2000000062, 'range_label': 'CNG'}, {'no': 8, 'up_bound': 7, 'low_bound': 7, 'range_id': 2000000063, 'range_label': 'Propane'}, {'no': 9, 'up_bound': 8, 'low_bound': 8, 'range_id': 2000000064, 'range_label': 'Battery'}, {'no': 10, 'up_bound': 9, 'low_bound': 9, 'range_id': 2000000065, 'range_label': 'Bi-fuel Gasoline'}, {'no': 11, 'up_bound': 10, 'low_bound': 10, 'range_id': 2000000066, 'range_label': 'Bi-fuel Methanol'}, {'no': 12, 'up_bound': 11, 'low_bound': 11, 'range_id': 2000000067, 'range_label': 'Bi-fuel Ethanol'}, {'no': 13, 'up_bound': 12, 'low_bound': 12, 'range_id': 2000000068, 'range_label': 'Bi-fuel LPG'}, {'no': 14, 'up_bound': 13, 'low_bound': 13, 'range_id': 2000000069, 'range_label': 'Bi-fuel CNG'}, {'no': 15, 'up_bound': 14, 'low_bound': 14, 'range_id': 2000000070, 'range_label': 'Bi-fuel Propane'}, {'no': 16, 'up_bound': 15, 'low_bound': 15, 'range_id': 2000000071, 'range_label': 'Bi-fuel Battery'}, {'no': 17, 'up_bound': 16, 'low_bound': 16, 'range_id': 2000000072, 'range_label': 'Bi-fuel MIX'}, {'no': 18, 'up_bound': 17, 'low_bound': 17, 'range_id': 2000000073, 'range_label': 'Hybrid Gasoline'}, {'no': 19, 'up_bound': 18, 'low_bound': 18, 'range_id': 2000000074, 'range_label': 'Hybrid Ethanol'}, {'no': 20, 'up_bound': 19, 'low_bound': 19, 'range_id': 2000000075, 'range_label': 'Hybrid Diesel'}, {'no': 21, 'up_bound': 20, 'low_bound': 20, 'range_id': 2000000076, 'range_label': 'Hybrid Battery'}, {'no': 22, 'up_bound': 21, 'low_bound': 21, 'range_id': 2000000077, 'range_label': 'Hybrid MIX'}, {'no': 23, 'up_bound': 22, 'low_bound': 22, 'range_id': 2000000078, 'range_label': 'Hybrid Reg. Mode'}]"
+Freeze Frame Data(OBD),FFD(OBD),Short term fuel trim 1 (Oxygen sensor (rear)),46,39,1246,1546,1,0x398691,0x2,0x55,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Long term fuel trim 1 (Oxygen sensor (rear)),47,31,1247,1547,1,0x398691,0x2,0x56,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Short term fuel trim 2 (Oxygen sensor (rear)),48,40,1248,1548,1,0x398691,0x2,0x57,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Long term fuel trim 2 (Oxygen sensor (rear)),49,33,1249,1549,1,0x398691,0x2,0x58,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.78125,-100,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),Relative APS,50,37,1250,1550,1,0x398691,0x2,0x5A,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.39215,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data(OBD),FFD(OBD),EGR gas temperature (bank1 sensor2),51,9,1251,1551,1,0x398691,0x2,0x6B,°C,0,5,1,2,-1,-1,-1,1,0,0,0,,4,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,ODO/TRIP METER,1,2,3,0,1,0x398691,0xF0,0xD0,km,0,2,3,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,DTC count,2,1,4,0,1,0x398691,0xF0,0xD1,,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",for IPT,-1,1,1,1000,0,1,0x398691,0x10,0x1,,,,,,,,,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",for IPT,-1,2,2,1001,0,1,0x398691,0x10,0x3,,,,,,,,,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",Disp Left-Top List,Common denominator,1,1,1002,0,1,0x398691,0x22,0x4800,,0,4,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Disp Left-Top List,IG cycle counter,2,2,1003,0,1,0x398691,0x22,0x4800,,0,6,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Disp Left-Top List,IG cycle counter 2,3,3,1092,1110,1,0x398691,0x22,0x4802,,0,52,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Disp Left-Bottum,H/W part number,1,1,0,0,1,0x398691,,,,,,,,,,,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",Disp Left-Bottum,S/W part number,2,2,0,0,1,0x398691,,,,,,,,,,,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",Disp Left-Bottum,VIN,3,3,6,0,1,0x398691,0x22,0xF190,,0,3,17,2,-1,-1,-1,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",Three Way Catalytic Converter B1,numerator,1,1,1007,1108,1,0x398691,0x22,0x4800,,0,8,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Three Way Catalytic Converter B1,denominator,2,2,1008,1108,1,0x398691,0x22,0x4800,,0,10,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Three Way Catalytic Converter B2,numerator,1,1,1009,1108,1,0x398691,0x22,0x4800,,0,12,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Three Way Catalytic Converter B2,denominator,2,2,1010,1108,1,0x398691,0x22,0x4800,,0,14,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Front O2 Sensor 1,numerator,1,1,1011,1108,1,0x398691,0x22,0x4800,,0,16,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Front O2 Sensor 1,denominator,2,2,1012,1108,1,0x398691,0x22,0x4800,,0,18,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Front O2 Sensor 2,numerator,1,1,1013,1108,1,0x398691,0x22,0x4800,,0,20,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Front O2 Sensor 2,denominator,2,2,1014,1108,1,0x398691,0x22,0x4800,,0,22,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",EGR/VVT/VVL monitor,numerator,1,1,1015,1108,1,0x398691,0x22,0x4800,,0,24,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",EGR/VVT/VVL monitor,denominator,2,2,1016,1108,1,0x398691,0x22,0x4800,,0,26,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Secondary Air System,numerator,1,1,1017,1108,1,0x398691,0x22,0x4800,,0,28,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Secondary Air System,denominator,2,2,1018,1108,1,0x398691,0x22,0x4800,,0,30,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Evap monitor,numerator,1,1,1019,1108,1,0x398691,0x22,0x4800,,0,32,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Evap monitor,denominator,2,2,1020,1108,1,0x398691,0x22,0x4800,,0,34,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Rear O2 sensor 1,numerator,1,1,1021,1108,1,0x398691,0x22,0x4800,,0,36,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Rear O2 sensor 1,denominator,2,2,1022,1108,1,0x398691,0x22,0x4800,,0,38,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Rear O2 sensor 2,numerator,1,1,1023,1108,1,0x398691,0x22,0x4800,,0,40,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Rear O2 sensor 2,denominator,2,2,1024,1108,1,0x398691,0x22,0x4800,,0,42,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Air fuel ratio imbalance monitor 1,numerator,1,1,1025,1108,1,0x398691,0x22,0x4800,,0,44,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Air fuel ratio imbalance monitor 1,denominator,2,2,1026,1108,1,0x398691,0x22,0x4800,,0,46,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Air fuel ratio imbalance monitor 2,numerator,1,1,1027,1108,1,0x398691,0x22,0x4800,,0,48,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",Air fuel ratio imbalance monitor 2,denominator,2,2,1028,1108,1,0x398691,0x22,0x4800,,0,50,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",GPF monitor 1,numerator,1,1,1029,1108,1,0x398691,0x22,0x4800,,0,52,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",GPF monitor 1,denominator,2,2,1030,1108,1,0x398691,0x22,0x4800,,0,54,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",GPF monitor 2,numerator,1,1,1031,1108,1,0x398691,0x22,0x4800,,0,56,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",GPF monitor 2,denominator,2,2,1032,1108,1,0x398691,0x22,0x4800,,0,58,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",EGR,numerator,1,1,1040,1109,1,0x398691,0x22,0x4801,,0,8,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",EGR,denominator,2,2,1041,1109,1,0x398691,0x22,0x4801,,0,10,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",VVT,numerator,1,1,1042,1109,1,0x398691,0x22,0x4801,,0,12,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",VVT,denominator,2,2,1043,1109,1,0x398691,0x22,0x4801,,0,14,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",GRS LEAK,numerator,1,1,1044,1109,1,0x398691,0x22,0x4801,,0,16,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",GRS LEAK,denominator,2,2,1045,1109,1,0x398691,0x22,0x4801,,0,18,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",EVAP LEAK1.0,numerator,1,1,1046,1109,1,0x398691,0x22,0x4801,,0,20,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",EVAP LEAK1.0,denominator,2,2,1047,1109,1,0x398691,0x22,0x4801,,0,22,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S A1,numerator,1,1,1048,1109,1,0x398691,0x22,0x4801,,0,24,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S A1,denominator,2,2,1049,1109,1,0x398691,0x22,0x4801,,0,26,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S A2,numerator,1,1,1050,1109,1,0x398691,0x22,0x4801,,0,28,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S A2,denominator,2,2,1051,1109,1,0x398691,0x22,0x4801,,0,30,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",FTPS,numerator,1,1,1052,1109,1,0x398691,0x22,0x4801,,0,32,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",FTPS,denominator,2,2,1053,1109,1,0x398691,0x22,0x4801,,0,34,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",FTS,numerator,1,1,1054,1109,1,0x398691,0x22,0x4801,,0,36,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",FTS,denominator,2,2,1055,1109,1,0x398691,0x22,0x4801,,0,38,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",PSSW,numerator,1,1,1056,1109,1,0x398691,0x22,0x4801,,0,40,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",PSSW,denominator,2,2,1057,1109,1,0x398691,0x22,0x4801,,0,42,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",ATS,numerator,1,1,1058,1109,1,0x398691,0x22,0x4801,,0,44,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",ATS,denominator,2,2,1059,1109,1,0x398691,0x22,0x4801,,0,46,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",DOR A,numerator,1,1,1060,1109,1,0x398691,0x22,0x4801,,0,48,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",DOR A,denominator,2,2,1061,1109,1,0x398691,0x22,0x4801,,0,50,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",DOR B,numerator,1,1,1062,1109,1,0x398691,0x22,0x4801,,0,52,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",DOR B,denominator,2,2,1063,1109,1,0x398691,0x22,0x4801,,0,54,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",DOR C,numerator,1,1,1064,1109,1,0x398691,0x22,0x4801,,0,56,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",DOR C,denominator,2,2,1065,1109,1,0x398691,0x22,0x4801,,0,58,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",DOR D,numerator,1,1,1066,1109,1,0x398691,0x22,0x4801,,0,60,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",DOR D,denominator,2,2,1067,1109,1,0x398691,0x22,0x4801,,0,62,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",DOR E,numerator,1,1,1068,1109,1,0x398691,0x22,0x4801,,0,64,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",DOR E,denominator,2,2,1069,1109,1,0x398691,0x22,0x4801,,0,66,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",HCTRAP,numerator,1,1,1070,1110,1,0x398691,0x22,0x4802,,0,8,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",HCTRAP,denominator,2,2,1071,1110,1,0x398691,0x22,0x4802,,0,10,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",3RD O2S A,numerator,1,1,1072,1110,1,0x398691,0x22,0x4802,,0,12,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",3RD O2S A,denominator,2,2,1073,1110,1,0x398691,0x22,0x4802,,0,14,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",3RD O2S B,numerator,1,1,1074,1110,1,0x398691,0x22,0x4802,,0,16,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",3RD O2S B,denominator,2,2,1075,1110,1,0x398691,0x22,0x4802,,0,18,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S B1,numerator,1,1,1076,1110,1,0x398691,0x22,0x4802,,0,20,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S B1,denominator,2,2,1077,1110,1,0x398691,0x22,0x4802,,0,22,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S C1,numerator,1,1,1078,1110,1,0x398691,0x22,0x4802,,0,24,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S C1,denominator,2,2,1079,1110,1,0x398691,0x22,0x4802,,0,26,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S B2,numerator,1,1,1080,1110,1,0x398691,0x22,0x4802,,0,28,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S B2,denominator,2,2,1081,1110,1,0x398691,0x22,0x4802,,0,30,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S C2,numerator,1,1,1082,1110,1,0x398691,0x22,0x4802,,0,32,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",RO2S C2,denominator,2,2,1083,1110,1,0x398691,0x22,0x4802,,0,34,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",IG TIMING,numerator,1,1,1084,1110,1,0x398691,0x22,0x4802,,0,36,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",IG TIMING,denominator,2,2,1085,1110,1,0x398691,0x22,0x4802,,0,38,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",THERMO,numerator,1,1,1086,1110,1,0x398691,0x22,0x4802,,0,40,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",THERMO,denominator,2,2,1087,1110,1,0x398691,0x22,0x4802,,0,42,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",VVL,numerator,1,1,1088,1110,1,0x398691,0x22,0x4802,,0,44,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",VVL,denominator,2,2,1089,1110,1,0x398691,0x22,0x4802,,0,46,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",VLS,numerator,1,1,1090,1110,1,0x398691,0x22,0x4802,,0,48,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",VLS,denominator,2,2,1091,1110,1,0x398691,0x22,0x4802,,0,50,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",AFIM1,numerator,1,1,1096,1110,1,0x398691,0x22,0x4802,,0,60,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",AFIM1,denominator,2,2,1097,1110,1,0x398691,0x22,0x4802,,0,62,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",AFIM2,numerator,1,1,1098,1110,1,0x398691,0x22,0x4802,,0,64,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",AFIM2,denominator,2,2,1099,1110,1,0x398691,0x22,0x4802,,0,66,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",FO2S AS1,numerator,1,1,1100,1111,1,0x398691,0x22,0x4803,,0,8,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",FO2S AS1,denominator,2,2,1101,1111,1,0x398691,0x22,0x4803,,0,10,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",FO2S AS2,numerator,1,1,1102,1111,1,0x398691,0x22,0x4803,,0,12,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",FO2S AS2,denominator,2,2,1103,1111,1,0x398691,0x22,0x4803,,0,14,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",PF1 A,numerator,1,1,1104,1111,1,0x398691,0x22,0x4803,,0,16,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",PF1 A,denominator,2,2,1105,1111,1,0x398691,0x22,0x4803,,0,18,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",PF2 A,numerator,1,1,1106,1111,1,0x398691,0x22,0x4803,,0,20,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",PF2 A,denominator,2,2,1107,1111,1,0x398691,0x22,0x4803,,0,22,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",For IPT,-1,1,1,1000,0,1,0x398691,0x10,0x1,,,,,,,,,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",For IPT,-1,2,2,1001,0,1,0x398691,0x10,0x3,,,,,,,,,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",For IPT (Extra Items),CAL-ID,2,2,1035,0,1,0x398691,0x9,0x4,,0,3,16,2,-1,-1,-1,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",For IPT (Extra Items),Test GROUP,3,3,1553,1555,1,0x398691,0x9,0x13,,0,3,12,2,-1,-1,-1,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",For IPT (Extra Items),H/W part number #2,4,4,1037,0,1,0x398691,0x22,0xF191,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",For IPT (Extra Items),S/W part number #2,5,5,1038,0,1,0x398691,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+"IPT
+(InUse-Performance-Track)",For IPT (Extra Items),Engine ACC counter1,7,7,1093,1110,1,0x398691,0x22,0x4802,,0,54,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",For IPT (Extra Items),Engine ACC counter2,8,8,1094,1110,1,0x398691,0x22,0x4802,,0,56,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",For IPT (Extra Items),Engine ACC counter3,9,9,1095,1110,1,0x398691,0x22,0x4802,,0,58,2,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+"IPT
+(InUse-Performance-Track)",For IPT(Odo),Odometer,1,1,1554,1556,1,0x398691,0x1,0xA6,km,0,2,4,2,-1,-1,-1,1,0,0,0,,0.1,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+ECU Information,Fuel control,ECU PART NUMBER,1,1,2,0,1,0x398691,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,CAL-ID,2,2,1305,0,1,0x398691,0x9,0x4,,0,3,16,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,CVN,3,3,1306,0,1,0x398691,0x9,0x6,,0,3,4,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Software part number,1,1,117081,0,1,0x398691,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Hardware part number,2,2,117082,0,1,0x398691,0x22,0xF1A1,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),ECU serial number,3,3,117083,0,1,0x398691,0x22,0xF18C,,0,3,-1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,1,Injection cut,1,1,8,37,1,0x398691,0x2F,0x4F00,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,1,-1,2,2,9,0,1,0x398691,0x2F,0x4F00,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,Fuel Pump,1,1,10,38,1,0x398691,0x2F,0x4F01,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,2,-1,2,2,11,0,1,0x398691,0x2F,0x4F01,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,Purge Control Solenoid Valve,1,1,12,39,1,0x398691,0x2F,0x4F02,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,3,-1,2,2,13,0,1,0x398691,0x2F,0x4F02,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,IG 5 BTDC,1,1,14,40,1,0x398691,0x2F,0x4F03,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,4,-1,2,2,15,0,1,0x398691,0x2F,0x4F03,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,Oil control valve,1,1,18,42,1,0x398691,0x2F,0x4F09,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,6,-1,2,2,19,0,1,0x398691,0x2F,0x4F09,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,Ignition Timing Control,1,1,20,43,1,0x398691,0x2F,0x4F13,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,7,-1,2,2,21,0,1,0x398691,0x2F,0x4F13,,,,,,,,,,,,,,,,,[]
+Actuator Test,8,EVAP System Bypass Solenoid Valve,1,1,22,44,1,0x398691,0x2F,0x4F14,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,8,-1,2,2,23,0,1,0x398691,0x2F,0x4F14,,,,,,,,,,,,,,,,,[]
+Actuator Test,9,EVAP System Vent Valve,1,1,24,45,1,0x398691,0x2F,0x4F15,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,9,-1,2,2,25,0,1,0x398691,0x2F,0x4F15,,,,,,,,,,,,,,,,,[]
+Actuator Test,10,EVAP system sealing valve,1,1,26,46,1,0x398691,0x2F,0x4F16,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,10,-1,2,2,27,0,1,0x398691,0x2F,0x4F16,,,,,,,,,,,,,,,,,[]
+Actuator Test,11,EVAP System Leak Detection Pump,1,1,28,47,1,0x398691,0x2F,0x4F17,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,11,-1,2,2,29,0,1,0x398691,0x2F,0x4F17,,,,,,,,,,,,,,,,,[]
+Actuator Test,12,Fuel Filler Door Motor Relay,1,1,30,48,1,0x398691,0x2F,0x4F18,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,12,-1,2,2,31,0,1,0x398691,0x2F,0x4F18,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,,,,,,,0x398691,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,FUEL PUMP RLY,1,1,128,213,1,0x398691,0x22,0x4057,,1,3,1,2,1,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Actuator Test,3,Purge Solenoid Duty,1,1,113,202,1,0x398691,0x22,0x4037,%,0,3,1,2,-1,-1,-1,1,0,0,0,,0.392157,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Actuator Test,4,Adv.Ignition,1,1,102,191,1,0x398691,0x22,0x4012,°CA,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-20,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Actuator Test,6,OCV Current Value(Intake-bank1),1,1,109,198,1,0x398691,0x22,0x4027,mA,0,3,2,2,-1,-1,-1,1,0,0,0,,0.030518,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Actuator Test,6,V.V.T. RA(Intake-bank1),2,2,110,199,1,0x398691,0x22,0x4028,°CA,0,3,1,2,-1,-1,-1,1,0,0,0,,0.625,-80,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Actuator Test,7,Adv.Ignition,1,1,102,191,1,0x398691,0x22,0x4012,°CA,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-20,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Actuator Test,8,EVAP System Bypass Solenoid,1,1,155,213,1,0x398691,0x22,0x4057,,1,7,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Actuator Test,9,EVAP System Vent Valve,1,1,154,213,1,0x398691,0x22,0x4057,,1,7,1,2,1,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Actuator Test,10,EVAP System Switching Valve,1,1,153,213,1,0x398691,0x22,0x4057,,1,7,1,2,2,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Actuator Test,11,EVAP System Leak Detection Pump control,1,1,152,213,1,0x398691,0x22,0x4057,,1,7,1,2,3,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Actuator Test,12,Fuel Fill Door Motor relay,1,1,151,213,1,0x398691,0x22,0x4057,,1,7,1,2,4,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Evap Leak Monitor,13,Evap Leak Monitor,1,1,32,49,1,0x398691,0x31,0x1,,,,,,,,,,,,,,,,,[]
+Evap Leak Monitor,13,-1,2,2,33,0,1,0x398691,0x31,0x2,,,,,,,,,,,,,,,,,[]
+Evap Leak Monitor,13,-1,3,3,34,0,1,0x398691,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Evap Leak Monitor,13,Vent valve stuck open NG,1,1,132,213,1,0x398691,0x22,0x4057,,1,5,1,2,7,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Reference orifice low flow NG,2,2,133,213,1,0x398691,0x22,0x4057,,1,5,1,2,6,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Reference orifice high flow NG,3,3,134,213,1,0x398691,0x22,0x4057,,1,5,1,2,5,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Pump pulsation NG,4,4,135,213,1,0x398691,0x22,0x4057,,1,5,1,2,4,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Vent valve stuck closed or Pump NG,5,5,136,213,1,0x398691,0x22,0x4057,,1,5,1,2,3,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Tank pressure sensor noise NG,6,6,137,213,1,0x398691,0x22,0x4057,,1,5,1,2,2,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Canister pressure sensor noise NG,7,7,138,213,1,0x398691,0x22,0x4057,,1,5,1,2,1,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Canister pressure sensor- MAPS correlation NG,8,8,139,213,1,0x398691,0x22,0x4057,,1,5,1,2,0,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Bypass valve stuck open NG,9,9,142,213,1,0x398691,0x22,0x4057,,1,6,1,2,5,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,EVP leak from tank NG,10,10,143,213,1,0x398691,0x22,0x4057,,1,6,1,2,4,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,EVP leak from canister NG,11,11,144,213,1,0x398691,0x22,0x4057,,1,6,1,2,3,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Sealing valve stuck open NG,12,12,145,213,1,0x398691,0x22,0x4057,,1,6,1,2,2,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Purge valve stuck closed NG,13,13,146,213,1,0x398691,0x22,0x4057,,1,6,1,2,1,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Evap Leak Monitor,13,Sealing valve stuck closed NG,14,14,147,213,1,0x398691,0x22,0x4057,,1,6,1,2,0,1,-1,1,0,0,9100094,Normal,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100094, 'range_label': 'Normal'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000836, 'range_label': 'Abnormal'}]"
+Forced Refuel control completion,14,Forced Refuel control completion,1,1,35,50,1,0x398691,0x31,0x1,,,,,,,,,,,,,,,,,[]
+Forced Refuel control completion,14,EVAP System Switching Valve,1,1,153,213,1,0x398691,0x22,0x4057,,1,7,1,2,2,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Compulsion Boot Test,17,Compulsion Boot Test Request,1,1,1112,0,1,0x398691,0x10,0x2,,,,,,,,,,,,,,,,,[]
+Compulsion Boot Test,17,-1,2,2,1113,0,1,0x398691,0x31,0x1,,,,,,,,,,,,,,,,,[]
+Compulsion Boot Test,17,-1,3,3,1114,0,1,0x398691,0x11,0x1,,,,,,,,,,,,,,,,,[]
+Compulsion Boot Test,17,-1,4,4,1115,0,1,0x398691,0x10,0x3,,,,,,,,,,,,,,,,,[]
+Compulsion Boot Test,17,,,,,,,0x398691,,,,,,,,,,,,,,,,,,,[]
+Reset,15,Learned value reset,1,1,36,51,1,0x398691,0x31,0x1,,,,,,,,,,,,,,,,,[]
+Reset,16,Timing chain learned value reset,1,1,337,338,1,0x398691,0x31,0x1,,,,,,,,,,,,,,,,,[]
+Reset,15,,,,,,,0x398691,,,,,,,,,,,,,,,,,,,[]
+Reset,16,,,,,,,0x398691,,,,,,,,,,,,,,,,,,,[]
+Chassis No./VIN Information,Timing control,Dummy1,1,1,6,0,1,0x398691,0x22,0xF190,,0,3,17,2,-1,-1,-1,,,,,,,,,[]
+Chassis No./VIN Registration,Learned value,Dummy1,1,1,6,0,1,0x398691,0x22,0xF190,,0,3,17,2,-1,-1,-1,,,,,,,,,[]
+Chassis No./VIN Registration,Learned value,Dummy2,2,2,52,0,1,0x398691,0x2E,0xF190,,0,3,17,2,-1,-1,-1,,,,,,,,,[]
+SAVING DATA,Func ID：70088の書込み用グループ,Dummy1,1,1,53,54,1,0x398691,0x2E,0x4A02,,0,3,4,2,-1,-1,-1,,,,,,,,,[]
+SAVING DATA,Func ID：70088の読み出し用グループ,Save the ENG RUN Mileage,1,1,55,56,1,0x398691,0x22,0x4A02,,0,3,4,2,-1,-1,-1,,,,,,,,,[]
+WRITING DATA,Func ID：70089の書込み用グループ,Dummy1,1,1,53,54,1,0x398691,0x2E,0x4A02,,0,3,4,2,-1,-1,-1,,,,,,,,,[]
+WRITING DATA,Func ID：70089の読み出し用グループ,Write the ENG RUN Mileage,1,1,55,56,1,0x398691,0x22,0x4A02,,0,3,4,2,-1,-1,-1,,,,,,,,,[]
+Readiness Test,All data,EGR/VVT monitor(Support),1,1,1458,0,1,0x398691,0x1,0x1,,1,4,1,2,7,1,-1,1,0,0,2000000005,N/A,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 2000000005, 'range_label': 'N/A'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 2000000006, 'range_label': 'Supported'}]"
+Readiness Test,All data,EGR/VVT monitor,2,2,1459,0,1,0x398691,0x1,0x1,,1,5,1,2,7,1,-1,1,0,0,9100008,Comp,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100008, 'range_label': 'Comp'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 9100117, 'range_label': 'Not comp'}]"
+Readiness Test,All data,Oxygen sensor heater(Support),3,3,1460,0,1,0x398691,0x1,0x1,,1,4,1,2,6,1,-1,1,0,0,2000000005,N/A,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 2000000005, 'range_label': 'N/A'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 2000000006, 'range_label': 'Supported'}]"
+Readiness Test,All data,Oxygen sensor heater,4,4,1461,0,1,0x398691,0x1,0x1,,1,5,1,2,6,1,-1,1,0,0,9100008,Comp,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100008, 'range_label': 'Comp'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 9100117, 'range_label': 'Not comp'}]"
+Readiness Test,All data,Oxygen sensor(Support),5,5,1462,0,1,0x398691,0x1,0x1,,1,4,1,2,5,1,-1,1,0,0,2000000005,N/A,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 2000000005, 'range_label': 'N/A'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 2000000006, 'range_label': 'Supported'}]"
+Readiness Test,All data,Oxygen sensor,6,6,1463,0,1,0x398691,0x1,0x1,,1,5,1,2,5,1,-1,1,0,0,9100008,Comp,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100008, 'range_label': 'Comp'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 9100117, 'range_label': 'Not comp'}]"
+Readiness Test,All data,A/C refrigerant(Support),7,7,1464,0,1,0x398691,0x1,0x1,,1,4,1,2,4,1,-1,1,0,0,2000000005,N/A,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 2000000005, 'range_label': 'N/A'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 2000000006, 'range_label': 'Supported'}]"
+Readiness Test,All data,A/C refrigerant,8,8,1465,0,1,0x398691,0x1,0x1,,1,5,1,2,4,1,-1,1,0,0,9100008,Comp,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100008, 'range_label': 'Comp'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 9100117, 'range_label': 'Not comp'}]"
+Readiness Test,All data,Secondary air system(Support),9,9,1466,0,1,0x398691,0x1,0x1,,1,4,1,2,3,1,-1,1,0,0,2000000005,N/A,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 2000000005, 'range_label': 'N/A'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 2000000006, 'range_label': 'Supported'}]"
+Readiness Test,All data,Secondary air system,10,10,1467,0,1,0x398691,0x1,0x1,,1,5,1,2,3,1,-1,1,0,0,9100008,Comp,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100008, 'range_label': 'Comp'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 9100117, 'range_label': 'Not comp'}]"
+Readiness Test,All data,Evaporative system(Support),11,11,1468,0,1,0x398691,0x1,0x1,,1,4,1,2,2,1,-1,1,0,0,2000000005,N/A,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 2000000005, 'range_label': 'N/A'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 2000000006, 'range_label': 'Supported'}]"
+Readiness Test,All data,Evaporative system,12,12,1469,0,1,0x398691,0x1,0x1,,1,5,1,2,2,1,-1,1,0,0,9100008,Comp,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100008, 'range_label': 'Comp'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 9100117, 'range_label': 'Not comp'}]"
+Readiness Test,All data,Heated catalyst(Support),13,13,1470,0,1,0x398691,0x1,0x1,,1,4,1,2,1,1,-1,1,0,0,2000000005,N/A,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 2000000005, 'range_label': 'N/A'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 2000000006, 'range_label': 'Supported'}]"
+Readiness Test,All data,Heated catalyst,14,14,1471,0,1,0x398691,0x1,0x1,,1,5,1,2,1,1,-1,1,0,0,9100008,Comp,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100008, 'range_label': 'Comp'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 9100117, 'range_label': 'Not comp'}]"
+Readiness Test,All data,Catalyst(Support),15,15,1472,0,1,0x398691,0x1,0x1,,1,4,1,2,0,1,-1,1,0,0,2000000005,N/A,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 2000000005, 'range_label': 'N/A'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 2000000006, 'range_label': 'Supported'}]"
+Readiness Test,All data,Catalyst,16,16,1473,0,1,0x398691,0x1,0x1,,1,5,1,2,0,1,-1,1,0,0,9100008,Comp,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 9100008, 'range_label': 'Comp'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 9100117, 'range_label': 'Not comp'}]"

@@ -1,0 +1,27 @@
+function,group,item,no,no_nas,qual_id,su_qual_id,visible,skey_sid_hex,qual_sid_hex,qual_lid_hex,param_unit,param_data_type,param_byte_pos,param_byte_len,param_byte_ord,param_bit_pos,param_bit_len,param_bit_mask,scale_no,scale_up_bound,scale_low_bound,scale_range_id,scale_range_label,scale_factor,scale_offset,scale_format,scale_labels
+Data List,All data,ANC OPERATING CONDITION,1,1,5,10,1,0x769D88F5,0x22,0x1101,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,ASC OPERATING CONDITION,2,2,6,11,1,0x769D88F5,0x22,0x1102,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,ENGINE SPEED,3,4,7,12,1,0x769D88F5,0x22,0x1103,r/min,0,3,2,2,-1,-1,-1,1,0,0,0,,0.125,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Vehicle Speed,4,5,8,14,1,0x769D88F5,0x22,0x1107,km/h,0,3,2,2,-1,-1,-1,1,0,0,0,,0.01,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,DOOR STATUS,5,3,9,13,1,0x769D88F5,0x22,0x1104,,1,3,1,2,0,2,-1,1,0,0,42000019,Initial state,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 42000019, 'range_label': 'Initial state'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 58000016, 'range_label': 'Open'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 58000015, 'range_label': 'Close'}]"
+Data gathering,,Data(DA00),1,1,30,0,1,0x769D88F5,0x22,0xDA00,,0,0,318,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA10),2,2,31,0,1,0x769D88F5,0x22,0xDA10,,0,0,71,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA11),3,3,32,0,1,0x769D88F5,0x22,0xDA11,,0,0,71,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA12),4,4,33,0,1,0x769D88F5,0x22,0xDA12,,0,0,71,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA13),5,5,34,0,1,0x769D88F5,0x22,0xDA13,,0,0,71,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA14),6,6,35,0,1,0x769D88F5,0x22,0xDA14,,0,0,71,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA30),7,7,36,0,1,0x769D88F5,0x22,0xDA30,,0,0,29,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA31),8,8,37,0,1,0x769D88F5,0x22,0xDA31,,0,0,29,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA32),9,9,38,0,1,0x769D88F5,0x22,0xDA32,,0,0,29,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA33),10,10,39,0,1,0x769D88F5,0x22,0xDA33,,0,0,29,2,-1,-1,-1,,,,,,,,,[]
+Data gathering,,Data(DA34),11,11,40,0,1,0x769D88F5,0x22,0xDA34,,0,0,29,2,-1,-1,-1,,,,,,,,,[]
+Freeze Frame Data,Fuel control,ODO/TRIP METER,10,20,3,0,1,0x769D88F5,0xF0,0xD0,km,0,2,3,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,DTC count,20,10,4,0,1,0x769D88F5,0xF0,0xD1,count,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+ECU Information,Fuel control,ECU PART NUMBER,1,1,2,0,1,0x769D88F5,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Software part number,1,1,117081,0,1,0x769D88F5,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Hardware part number,2,2,117082,0,1,0x769D88F5,0x22,0xF1A1,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),ECU serial number,3,3,117083,0,1,0x769D88F5,0x22,0xF18C,,0,3,-1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,1,ANC SETTING,1,1,15,17,1,0x769D88F5,0x2E,0x1101,,0,3,1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,2,ASC SETTING,1,1,16,18,1,0x769D88F5,0x2E,0x1102,,0,3,1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,1,ANC OPERATING CONDITION,1,1,5,10,1,0x769D88F5,0x22,0x1101,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Setting change,2,ASC OPERATING CONDITION,1,1,6,11,1,0x769D88F5,0x22,0x1102,,1,3,1,2,0,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"

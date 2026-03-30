@@ -1,0 +1,18 @@
+function,group,item,no,no_nas,qual_id,su_qual_id,visible,skey_sid_hex,qual_sid_hex,qual_lid_hex,param_unit,param_data_type,param_byte_pos,param_byte_len,param_byte_ord,param_bit_pos,param_bit_len,param_bit_mask,scale_no,scale_up_bound,scale_low_bound,scale_range_id,scale_range_label,scale_factor,scale_offset,scale_format,scale_labels
+Freeze Frame Data,Fuel control,ODO/TRIP METER,10,20,32,0,1,0x3AE621,0xF0,0xD0,km,0,2,3,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,DTC count,20,10,33,0,1,0x3AE621,0xF0,0xD1,count,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+ECU Information,Fuel control,ECU PART NUMBER,1,1,2,0,1,0x3AE621,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,Vehicle manufacturer spare part number,2,2,37,0,1,0x3AE621,0x22,0xF187,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,Configuration file reference link,3,3,38,0,1,0x3AE621,0x22,0xF188,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,SUPPLIER NUMBER,4,4,39,0,1,0x3AE621,0x22,0xF18A,,0,3,4,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,CALIB NUMBER,5,5,40,0,1,0x3AE621,0x22,0xF18C,,0,3,20,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,HARDWARE NUMBER,6,6,41,0,1,0x3AE621,0x22,0xF191,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,SOFTWARE NUMBER,7,7,42,0,1,0x3AE621,0x22,0xF194,,0,3,4,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,EDITION NUMBER,8,8,43,0,1,0x3AE621,0x22,0xF195,,0,3,4,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,Hardware part number,9,9,44,0,1,0x3AE621,0x22,0xF1A1,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Software part number,1,1,117081,0,1,0x3AE621,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Hardware part number,2,2,117082,0,1,0x3AE621,0x22,0xF1A1,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),ECU serial number,3,3,117083,0,1,0x3AE621,0x22,0xF18C,,0,3,-1,2,-1,-1,-1,,,,,,,,,[]
+Chassis No./VIN Information,O2 sensor data,Dummy1,1,1,34,0,1,0x3AE621,0x22,0xF190,,0,3,17,2,-1,-1,-1,,,,,,,,,[]
+Chassis No./VIN Registration,,Dummy1,1,1,35,0,1,0x3AE621,0x22,0xF190,,0,3,17,2,-1,-1,-1,,,,,,,,,[]
+Chassis No./VIN Registration,,Dummy2,2,2,36,0,1,0x3AE621,0x2E,0xF190,,0,3,17,2,-1,-1,-1,,,,,,,,,[]

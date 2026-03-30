@@ -1,0 +1,175 @@
+function,group,item,no,no_nas,qual_id,su_qual_id,visible,skey_sid_hex,qual_sid_hex,qual_lid_hex,param_unit,param_data_type,param_byte_pos,param_byte_len,param_byte_ord,param_bit_pos,param_bit_len,param_bit_mask,scale_no,scale_up_bound,scale_low_bound,scale_range_id,scale_range_label,scale_factor,scale_offset,scale_format,scale_labels
+Data List,All data,IN-VEH TEMP,1,14,6,27,1,0x6AB1C245,0x22,0x4009,°C,0,3,2,2,-1,-1,-1,1,0,0,0,,0.1,-40,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,INT TEMP SEN,2,13,7,28,1,0x6AB1C245,0x22,0x400A,°C,0,3,2,2,-1,-1,-1,1,0,0,0,,0.1,-40,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,SUNLOAD SEN,3,19,8,29,1,0x6AB1C245,0x22,0x400B,W/m^2,0,3,1,2,-1,-1,-1,1,0,0,0,,5,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,AMB SEN CAL,4,3,9,30,1,0x6AB1C245,0x22,0x400C,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,IN -VEH CAL,5,11,10,31,1,0x6AB1C245,0x22,0x400D,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,PASS IN CAL,6,16,11,32,1,0x6AB1C245,0x22,0x400E,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,INT TEMP CAL,7,12,12,33,1,0x6AB1C245,0x22,0x400F,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,SUNL SEN CAL,8,18,13,34,1,0x6AB1C245,0x22,0x4010,W/m^2,0,3,1,2,-1,-1,-1,1,0,0,0,,5,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,XM,9,21,14,35,1,0x6AB1C245,0x22,0x4012,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-100,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,FAN REQ SIG,10,10,15,36,1,0x6AB1C245,0x22,0x4013,,1,3,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,COMP REQ SIG,11,7,16,37,1,0x6AB1C245,0x22,0x4015,,1,3,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,A/C comp clutch status,12,1,17,38,1,0x6AB1C245,0x22,0x4017,,1,3,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Data List,All data,RR XM,13,17,18,39,1,0x6AB1C245,0x22,0x4025,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-100,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Assist seat target air temperature,14,5,19,40,1,0x6AB1C245,0x22,0x4060,,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-100,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Blower fan duty,15,6,20,41,1,0x6AB1C245,0x22,0x422F,%,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,A/C comp valve duty,16,2,21,42,1,0x6AB1C245,0x22,0x4248,%,0,3,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,AMB TEMP SEN,17,4,22,43,1,0x6AB1C245,0x22,0x4347,°C,0,3,2,2,-1,-1,-1,1,0,0,0,,0.25,-50,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Vehicle speed,18,20,23,44,1,0x6AB1C245,0x22,0xD003,km/h,0,3,2,2,-1,-1,-1,1,0,0,0,,0.01,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,ODO/TRIP METER,19,15,24,45,1,0x6AB1C245,0x22,0xF0D0,km,0,3,3,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,Engine RPM,20,9,25,46,1,0x6AB1C245,0x22,0xF40C,r/min,0,3,2,2,-1,-1,-1,1,0,0,0,,0.125,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Data List,All data,ENG COOL TEMP,21,8,26,47,1,0x6AB1C245,0x22,0xF467,°C,0,3,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,ODO/TRIP METER,10,230,3,0,1,0x6AB1C245,0xF0,0xD0,km,0,2,3,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,BatteryVoltage,20,70,134,0,1,0x6AB1C245,0xD0,0x1,,0,2,1,2,-1,-1,-1,1,0,0,0,,0.1,0,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,DTC counter,30,130,135,0,1,0x6AB1C245,0xF0,0xD1,,0,2,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,VehicleSpeed,40,300,136,0,1,0x6AB1C245,0xD0,0x3,km/h,0,2,2,2,-1,-1,-1,1,0,0,0,,0.01,0,2,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Day night status,50,100,137,0,1,0x6AB1C245,0x40,0x1,,1,2,1,2,7,1,-1,1,0,0,37000073,Day,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 37000073, 'range_label': 'Day'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 37000077, 'range_label': 'Night'}]"
+Freeze Frame Data,Fuel control,Diagnosis status,60,120,138,0,1,0x6AB1C245,0x40,0x2,,1,2,1,2,7,1,-1,1,0,0,77000024,OK,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 77000024, 'range_label': 'OK'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 77000023, 'range_label': 'NG'}]"
+Freeze Frame Data,Fuel control,Ignition SW from IPDM,70,170,139,0,1,0x6AB1C245,0x40,0x3,,1,2,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Freeze Frame Data,Fuel control,Temperature display (°C),80,290,140,0,1,0x6AB1C245,0x40,0x4,,0,2,1,2,-1,-1,-1,1,0,0,7000671,No display,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 7000671, 'range_label': 'No display'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8002094, 'range_label': 'Unused'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 7000670, 'range_label': 'Show All Items'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8002094, 'range_label': 'Unused'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 6, 'up_bound': 5, 'low_bound': 5, 'range_id': 8002094, 'range_label': 'Unused'}, {'no': 7, 'up_bound': 6, 'low_bound': 6, 'range_id': 43900033, 'range_label': '--'}, {'no': 8, 'up_bound': 7, 'low_bound': 7, 'range_id': 8002094, 'range_label': 'Unused'}, {'no': 9, 'up_bound': 8, 'low_bound': 8, 'range_id': 37000011, 'range_label': 'LO'}, {'no': 10, 'up_bound': 9, 'low_bound': 9, 'range_id': 8002094, 'range_label': 'Unused'}, {'no': 11, 'up_bound': 10, 'low_bound': 10, 'range_id': 37000012, 'range_label': 'HI'}, {'no': 12, 'up_bound': 19, 'low_bound': 11, 'range_id': 8002094, 'range_label': 'Unused'}, {'no': 13, 'up_bound': 255, 'low_bound': 20, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Mode switch,90,220,142,0,1,0x6AB1C245,0x40,0x5,,0,2,1,2,-1,-1,-1,1,0,0,7000671,No display,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 7000671, 'range_label': 'No display'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 8002095, 'range_label': 'Foot'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 8002096, 'range_label': 'Vent'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 8002097, 'range_label': 'Foot + Vent'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 8002098, 'range_label': 'Upvent'}, {'no': 6, 'up_bound': 5, 'low_bound': 5, 'range_id': 8002099, 'range_label': 'Foot + Upvent'}, {'no': 7, 'up_bound': 6, 'low_bound': 6, 'range_id': 8002100, 'range_label': 'Upvent + Foot'}, {'no': 8, 'up_bound': 7, 'low_bound': 7, 'range_id': 8002101, 'range_label': 'Foot + Vent + Upvent'}, {'no': 9, 'up_bound': 8, 'low_bound': 8, 'range_id': 8002102, 'range_label': 'Defroster'}, {'no': 10, 'up_bound': 9, 'low_bound': 9, 'range_id': 8002103, 'range_label': 'Foot + Defroster'}, {'no': 11, 'up_bound': 10, 'low_bound': 10, 'range_id': 8002104, 'range_label': 'Vent + Defroster'}, {'no': 12, 'up_bound': 11, 'low_bound': 11, 'range_id': 8002105, 'range_label': 'Foot + Vent + Defroster'}, {'no': 13, 'up_bound': 12, 'low_bound': 12, 'range_id': 8002106, 'range_label': 'Upvent + Defroster'}, {'no': 14, 'up_bound': 13, 'low_bound': 13, 'range_id': 8002107, 'range_label': 'Foot + Upvent + Defroster'}, {'no': 15, 'up_bound': 14, 'low_bound': 14, 'range_id': 8002108, 'range_label': 'Vent + Upvent + Defroster'}, {'no': 16, 'up_bound': 15, 'low_bound': 15, 'range_id': 8002109, 'range_label': 'Foot + Vent + Upvent + Defroster'}]"
+Freeze Frame Data,Fuel control,Preset blower fan,100,240,143,0,1,0x6AB1C245,0x40,0x6,,0,2,1,2,-1,-1,-1,1,0,0,7000671,No display,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 7000671, 'range_label': 'No display'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000672, 'range_label': 'Air volume 1'}, {'no': 3, 'up_bound': 2, 'low_bound': 2, 'range_id': 7000678, 'range_label': 'Air volume 2'}, {'no': 4, 'up_bound': 3, 'low_bound': 3, 'range_id': 7000679, 'range_label': 'Air volume 3'}, {'no': 5, 'up_bound': 4, 'low_bound': 4, 'range_id': 7000680, 'range_label': 'Air volume 4'}, {'no': 6, 'up_bound': 5, 'low_bound': 5, 'range_id': 7000681, 'range_label': 'Air volume 5'}, {'no': 7, 'up_bound': 6, 'low_bound': 6, 'range_id': 7000682, 'range_label': 'Air volume 6'}, {'no': 8, 'up_bound': 7, 'low_bound': 7, 'range_id': 7000683, 'range_label': 'Air volume 7'}, {'no': 9, 'up_bound': 8, 'low_bound': 8, 'range_id': 7000684, 'range_label': 'Air volume 8'}, {'no': 10, 'up_bound': 9, 'low_bound': 9, 'range_id': 7000685, 'range_label': 'Air volume 9'}, {'no': 11, 'up_bound': 10, 'low_bound': 10, 'range_id': 7000673, 'range_label': 'Air volume 10'}, {'no': 12, 'up_bound': 11, 'low_bound': 11, 'range_id': 7000674, 'range_label': 'Air volume 11'}, {'no': 13, 'up_bound': 12, 'low_bound': 12, 'range_id': 7000675, 'range_label': 'Air volume 12'}, {'no': 14, 'up_bound': 13, 'low_bound': 13, 'range_id': 7000676, 'range_label': 'Air volume 13'}, {'no': 15, 'up_bound': 14, 'low_bound': 14, 'range_id': 7000677, 'range_label': 'Air volume 14'}, {'no': 16, 'up_bound': 15, 'low_bound': 15, 'range_id': 7000669, 'range_label': 'Fan req sig'}]"
+Freeze Frame Data,Fuel control,Auto A/C indicator,110,60,144,0,1,0x6AB1C245,0x40,0x7,,1,2,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Freeze Frame Data,Fuel control,Defroster indicator,120,110,145,0,1,0x6AB1C245,0x40,0x7,,1,2,1,2,5,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Freeze Frame Data,Fuel control,A/C indicator,130,30,146,0,1,0x6AB1C245,0x40,0x7,,1,2,1,2,3,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Freeze Frame Data,Fuel control,Rear defogger indicator,140,250,147,0,1,0x6AB1C245,0x40,0x7,,1,2,1,2,1,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Freeze Frame Data,Fuel control,Ambient temperature sensor value,150,50,149,0,1,0x6AB1C245,0x40,0x8,°C,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,In-vehicle temperature sensor value,160,210,150,0,1,0x6AB1C245,0x40,0x9,°C,0,2,2,2,-1,-1,-1,1,0,0,0,,0.1,-40,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Intake temperature sensor,170,180,151,0,1,0x6AB1C245,0x40,0xA,°C,0,2,2,2,-1,-1,-1,1,0,0,0,,0.1,-40,1,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Sunload sensor value,180,270,152,0,1,0x6AB1C245,0x40,0xB,W/m^2,0,2,1,2,-1,-1,-1,1,0,0,0,,5,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Ambient temperature sensor calculated value,190,40,153,0,1,0x6AB1C245,0x40,0xC,°C,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,In-vehicle temperature sensor calculated value,200,200,154,0,1,0x6AB1C245,0x40,0xD,°C,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Intake temperature sensor calculated value,210,190,155,0,1,0x6AB1C245,0x40,0xF,°C,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Sunload sensor calculated value,220,260,156,0,1,0x6AB1C245,0x40,0x10,W/m^2,0,2,1,2,-1,-1,-1,1,0,0,0,,5,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Target air temperature,230,280,157,0,1,0x6AB1C245,0x40,0x12,,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-100,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Fan req sig,240,160,158,0,1,0x6AB1C245,0x40,0x13,,1,2,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Freeze Frame Data,Fuel control,Blower fan duty,250,80,159,0,1,0x6AB1C245,0x40,0x14,%,1,2,1,2,1,7,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Engine coolant temperature,260,140,160,0,1,0x6AB1C245,0xF4,0x67,°C,0,2,1,2,-1,-1,-1,1,0,0,0,,1,-40,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Engine RPM,270,150,161,0,1,0x6AB1C245,0xF4,0xC,r/min,0,2,2,2,-1,-1,-1,1,0,0,0,,0.125,0,3,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Freeze Frame Data,Fuel control,Comp req sig,280,90,162,0,1,0x6AB1C245,0x40,0x15,,1,2,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Freeze Frame Data,Fuel control,A/C comp clutch status,290,20,163,0,1,0x6AB1C245,0x40,0x17,,1,2,1,2,7,1,-1,1,0,0,1000003,OFF,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 1000003, 'range_label': 'OFF'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 1000004, 'range_label': 'ON'}]"
+Freeze Frame Data,Fuel control,A/C comp clutch default,300,10,164,0,1,0x6AB1C245,0x40,0x18,,1,2,1,2,7,1,-1,1,0,0,7000661,Comp req sig,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 7000661, 'range_label': 'Comp req sig'}, {'no': 2, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000735, 'range_label': 'DEFAULT'}]"
+ECU Information,Fuel control,ECU PART NUMBER,1,1,2,0,1,0x6AB1C245,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,Fuel control,EDITION NUMBER,2,2,173,0,1,0x6AB1C245,0x22,0xF195,,0,3,32,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Software part number,1,1,117081,0,1,0x6AB1C245,0x22,0xF012,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),Hardware part number,2,2,117082,0,1,0x6AB1C245,0x22,0xF1A1,,0,3,10,2,-1,-1,-1,,,,,,,,,[]
+ECU Information,ECU information (items to be sent to the server),ECU serial number,3,3,117083,0,1,0x6AB1C245,0x22,0xF18C,,0,3,-1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,1,HVAC TEST mode1,1,1,48,100,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,2,2,49,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,3,3,50,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,4,4,51,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,5,5,52,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,6,6,53,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,7,7,54,0,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,8,8,55,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,9,9,56,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,10,10,57,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,11,11,58,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,-1,12,12,59,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,HVAC TEST mode2,1,1,48,100,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,2,2,60,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,3,3,61,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,4,4,62,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,5,5,52,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,6,6,53,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,7,7,54,0,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,8,8,55,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,9,9,56,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,10,10,57,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,11,11,58,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,-1,12,12,59,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,HVAC TEST mode3,1,1,63,100,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,2,2,64,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,3,3,50,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,4,4,51,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,5,5,65,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,6,6,66,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,7,7,54,0,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,8,8,55,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,9,9,56,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,10,10,57,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,11,11,58,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,-1,12,12,59,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,HVAC TEST mode4,1,1,63,100,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,2,2,64,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,3,3,61,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,4,4,62,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,5,5,65,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,6,6,66,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,7,7,54,0,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,8,8,55,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,9,9,56,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,10,10,57,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,11,11,58,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,-1,12,12,59,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,HVAC TEST mode5,1,1,67,100,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,2,2,68,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,3,3,61,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,4,4,62,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,5,5,69,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,6,6,70,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,7,7,54,0,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,8,8,55,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,9,9,56,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,10,10,57,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,11,11,58,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,-1,12,12,59,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,HVAC TEST mode6,1,1,67,100,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,2,2,71,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,3,3,61,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,4,4,62,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,5,5,69,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,6,6,70,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,7,7,54,0,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,8,8,55,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,9,9,56,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,10,10,57,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,11,11,58,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,-1,12,12,59,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,HVAC TEST mode7,1,1,67,100,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,2,2,72,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,3,3,61,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,4,4,62,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,5,5,52,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,6,6,73,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,7,7,54,0,1,0x6AB1C245,0x2F,0x4230,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,8,8,55,0,1,0x6AB1C245,0x2F,0x4231,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,9,9,56,0,1,0x6AB1C245,0x2F,0x4232,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,10,10,57,0,1,0x6AB1C245,0x2F,0x4233,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,11,11,58,0,1,0x6AB1C245,0x2F,0x422F,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,-1,12,12,59,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,8,Control Compressor Valve by wire,1,1,94,101,1,0x6AB1C245,0x2F,0x4248,%,0,4,1,2,-1,-1,-1,1,0,0,0,,1,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+Actuator Test,8,-1,2,2,59,0,1,0x6AB1C245,0x2F,0x4248,,,,,,,,,,,,,,,,,[]
+Actuator Test,9,FR Left Seat heater,1,1,74,102,1,0x6AB1C245,0x2F,0x444E,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,9,-1,2,2,75,0,1,0x6AB1C245,0x2F,0x444E,,,,,,,,,,,,,,,,,[]
+Actuator Test,10,FR Right Seat heater,1,1,76,103,1,0x6AB1C245,0x2F,0x4450,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,10,-1,2,2,77,0,1,0x6AB1C245,0x2F,0x4450,,,,,,,,,,,,,,,,,[]
+Actuator Test,11,RR Left Seat heater,1,1,78,104,1,0x6AB1C245,0x2F,0x4251,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,11,-1,2,2,79,0,1,0x6AB1C245,0x2F,0x4251,,,,,,,,,,,,,,,,,[]
+Actuator Test,12,RR Right Seat heater,1,1,80,105,1,0x6AB1C245,0x2F,0x4252,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,12,-1,2,2,81,0,1,0x6AB1C245,0x2F,0x4252,,,,,,,,,,,,,,,,,[]
+Actuator Test,13,OH_SteeringHeaterReq,1,1,82,106,1,0x6AB1C245,0x2F,0x433B,,0,4,1,2,-1,-1,-1,,,,,,,,,[]
+Actuator Test,13,-1,2,2,83,0,1,0x6AB1C245,0x2F,0x433B,,,,,,,,,,,,,,,,,[]
+Actuator Test,1,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,2,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,3,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,4,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,5,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,6,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,7,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,8,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,9,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,10,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,11,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,12,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Actuator Test,13,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+HVAC LIN actuators diagnosis,22,HVAC LIN actuators diagnosis,1,1,92,115,1,0x6AB1C245,0x31,0x1,,,,,,,,,,,,,,,,,[]
+HVAC LIN actuators diagnosis,22,-1,3,3,93,0,1,0x6AB1C245,0x31,0x3,,0,4,1,2,-1,-1,-1,1,0,0,0,,0,0,0,"[{'no': 1, 'up_bound': 0, 'low_bound': 0, 'range_id': 0, 'range_label': None}]"
+HVAC LIN actuators diagnosis,22,,,,,,,0x6AB1C245,,,,,,,,,,,,,,,,,,,[]
+Setting change,14,TEMP SET CORRECT,1,1,84,107,1,0x6AB1C245,0x2E,0x4019,,0,3,1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,17,BLOW SET,1,1,87,110,1,0x6AB1C245,0x2E,0x402C,,0,3,1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,18,TARGET EVAPORATOR TEMP UPPER LIMIT SETTING,1,1,88,111,1,0x6AB1C245,0x2E,0x402F,,0,3,1,2,-1,-1,-1,,,,,,,,,[]
+Setting change,14,Temp set correct,1,1,116,124,1,0x6AB1C245,0x22,0x4019,,0,3,1,2,-1,-1,-1,1,1,1,7000686,-3.0°C / -6.0°F,0,0,0,"[{'no': 1, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000686, 'range_label': '-3.0°C / -6.0°F'}, {'no': 2, 'up_bound': 2, 'low_bound': 2, 'range_id': 7000687, 'range_label': '-2.5°C / -5.0°F'}, {'no': 3, 'up_bound': 3, 'low_bound': 3, 'range_id': 7000688, 'range_label': '-2.0°C / -4.0°F'}, {'no': 4, 'up_bound': 4, 'low_bound': 4, 'range_id': 7000689, 'range_label': '-1.5°C / -3.0°F'}, {'no': 5, 'up_bound': 5, 'low_bound': 5, 'range_id': 7000690, 'range_label': '-1.0°C / -2.0°F'}, {'no': 6, 'up_bound': 6, 'low_bound': 6, 'range_id': 7000691, 'range_label': '-0.5°C / -1.0°F'}, {'no': 7, 'up_bound': 7, 'low_bound': 7, 'range_id': 7000692, 'range_label': '0°C / 0°F'}, {'no': 8, 'up_bound': 8, 'low_bound': 8, 'range_id': 7000693, 'range_label': '+0.5°C / +1.0°F'}, {'no': 9, 'up_bound': 9, 'low_bound': 9, 'range_id': 7000694, 'range_label': '+1.0°C / +2.0°F'}, {'no': 10, 'up_bound': 10, 'low_bound': 10, 'range_id': 7000695, 'range_label': '+1.5°C / +3.0°F'}, {'no': 11, 'up_bound': 11, 'low_bound': 11, 'range_id': 7000696, 'range_label': '+2.0°C / +4.0°F'}, {'no': 12, 'up_bound': 12, 'low_bound': 12, 'range_id': 7000697, 'range_label': '+2.5°C / +5.0°F'}, {'no': 13, 'up_bound': 13, 'low_bound': 13, 'range_id': 7000698, 'range_label': '+3.0°C / +6.0°F'}]"
+Setting change,17,Blow set,1,1,119,127,1,0x6AB1C245,0x22,0x402C,,0,3,1,2,-1,-1,-1,1,1,1,7000703,O/A C/M,0,0,0,"[{'no': 1, 'up_bound': 1, 'low_bound': 1, 'range_id': 7000703, 'range_label': 'O/A C/M'}, {'no': 2, 'up_bound': 2, 'low_bound': 2, 'range_id': 7000704, 'range_label': 'O/A O/M'}, {'no': 3, 'up_bound': 3, 'low_bound': 3, 'range_id': 7000705, 'range_label': 'C/A O/M'}, {'no': 4, 'up_bound': 4, 'low_bound': 4, 'range_id': 7000706, 'range_label': 'C/A C/M'}]"
+Setting change,18,Target evapo temp upper limit,1,1,120,128,1,0x6AB1C245,0x22,0x402F,,0,3,1,2,-1,-1,-1,1,1,1,30000049,Default,0,0,0,"[{'no': 1, 'up_bound': 1, 'low_bound': 1, 'range_id': 30000049, 'range_label': 'Default'}, {'no': 2, 'up_bound': 2, 'low_bound': 2, 'range_id': 7000707, 'range_label': '3°C'}, {'no': 3, 'up_bound': 3, 'low_bound': 3, 'range_id': 7000708, 'range_label': '5°C'}, {'no': 4, 'up_bound': 4, 'low_bound': 4, 'range_id': 7000709, 'range_label': '7°C'}]"
